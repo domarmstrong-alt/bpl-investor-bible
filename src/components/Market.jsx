@@ -59,7 +59,7 @@ const stats = [
   { number: '1,053,120', label: 'Combined six-market TAM (Britain + Ireland + US + Australia + Canada + New Zealand)' },
   { number: '62,347', label: 'Independent operators in Britain alone (SAM)' },
   { number: '0.20%', label: 'Year 5 target of 2,150 venues as a percentage of combined TAM' },
-  { number: '60%', label: 'Of UK independents lack the capital or skills to implement technology comparable to larger chains (Mordor Intelligence UK Hospitality Market Report, 2026)' },
+  { number: '~75%', label: 'Of Britain\u2019s licensed venues are independent operators without dedicated inventory management software (CGA/AlixPartners Hospitality Market Monitor, December 2024)' },
 ]
 
 export default function Market() {
@@ -97,7 +97,7 @@ export default function Market() {
       </div>
 
       <div className="sources-block">
-        Sources: CGA/AlixPartners Hospitality Market Monitor Dec 2024 &middot; IBISWorld Ireland 2025 &middot; VFI licence data 2023 &middot; BLS NAICS 722 Q4 2024 &middot; Restaurants Canada Foodservice Facts 2024 &middot; ABS/ResDiary FY2024 &middot; Stats NZ/Statista FY2024 &middot; Mordor Intelligence UK Hospitality Market Report 2026
+        Sources: CGA/AlixPartners Hospitality Market Monitor Dec 2024 &middot; IBISWorld Ireland 2025 &middot; VFI licence data 2023 &middot; BLS NAICS 722 Q4 2024 &middot; Restaurants Canada Foodservice Facts 2024 &middot; ABS/ResDiary FY2024 &middot; Stats NZ/Statista FY2024
       </div>
     </section>
   )

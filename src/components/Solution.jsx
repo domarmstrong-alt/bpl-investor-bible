@@ -18,14 +18,14 @@ const products = [
     status: 'Roadmap',
     statusColor: 'pill-grey',
     price: 'Add-on',
-    desc: 'Rota and shift management with shift-aware push notifications. Replaces work WhatsApp groups. Only notifies staff when they\'re on the clock.',
+    desc: 'Rota and shift management with shift-aware push notifications. Replaces work WhatsApp groups. Only notifies staff when they\'re on the clock. Provisionally priced at £119/month per venue (£99 base + £20 add-on) — included in Year 3+ blended ARPU projections.',
   },
   {
     name: 'Receptionist',
     status: 'Roadmap',
     statusColor: 'pill-grey',
     price: 'Add-on',
-    desc: 'Table bookings and reservation management. Connected to stock data so operators know what\'s available before the guest sits down.',
+    desc: 'Table bookings and reservation management. Connected to stock data so operators know what\'s available before the guest sits down. Provisionally priced at £139/month per venue (£99 base + £40 add-on) — included in Year 4+ blended ARPU projections.',
   },
 ]
 

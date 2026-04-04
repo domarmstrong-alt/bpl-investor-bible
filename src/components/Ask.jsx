@@ -46,6 +46,47 @@ export default function Ask() {
         </p>
       </div>
 
+      <div data-animate>
+        <h3 style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: 20, marginBottom: 12, color: '#1B2A4A' }}>
+          Probability-weighted expected return
+        </h3>
+        <div style={{ overflowX: 'auto', borderRadius: 12, boxShadow: '0 2px 12px rgba(27,42,74,0.06)', marginBottom: 12 }}>
+          <table style={{ width: '100%', borderCollapse: 'collapse', fontFamily: "'Inter', sans-serif", fontSize: 13 }}>
+            <thead>
+              <tr>
+                {['Scenario', 'Probability', 'Exit Multiple', 'Exit Value', 'Investor Return', 'MOIC'].map((h) => (
+                  <th key={h} style={{ background: '#1B2A4A', color: '#fff', padding: '10px 14px', textAlign: 'left', fontWeight: 600, fontSize: 12 }}>{h}</th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {[
+                { scenario: 'Downside', prob: '25%', mult: '3× ARR', exit: '£8.97m', ret: '£920k', moic: '2.3×' },
+                { scenario: 'Base case', prob: '55%', mult: '5× ARR', exit: '£14.95m', ret: '£1.534m', moic: '3.84×' },
+                { scenario: 'Upside', prob: '20%', mult: '10× ARR', exit: '£29.9m', ret: '£3.068m', moic: '7.67×' },
+              ].map((r, i) => (
+                <tr key={r.scenario} style={{ background: i % 2 === 0 ? '#FAFAFA' : '#fff' }}>
+                  <td style={{ padding: '10px 14px', borderBottom: '1px solid #eee', fontWeight: 600 }}>{r.scenario}</td>
+                  <td style={{ padding: '10px 14px', borderBottom: '1px solid #eee' }}>{r.prob}</td>
+                  <td style={{ padding: '10px 14px', borderBottom: '1px solid #eee' }}>{r.mult}</td>
+                  <td style={{ padding: '10px 14px', borderBottom: '1px solid #eee' }}>{r.exit}</td>
+                  <td style={{ padding: '10px 14px', borderBottom: '1px solid #eee' }}>{r.ret}</td>
+                  <td style={{ padding: '10px 14px', borderBottom: '1px solid #eee' }}>{r.moic}</td>
+                </tr>
+              ))}
+              <tr style={{ background: 'rgba(168,213,226,0.08)', fontWeight: 700 }}>
+                <td colSpan="4" style={{ padding: '10px 14px', borderBottom: '1px solid #eee' }}>Probability-weighted</td>
+                <td style={{ padding: '10px 14px', borderBottom: '1px solid #eee' }}>£1.67m</td>
+                <td style={{ padding: '10px 14px', borderBottom: '1px solid #eee' }}>4.18×</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p style={{ fontSize: 12, color: '#999', fontStyle: 'italic', lineHeight: 1.6 }}>
+          Probability-weighted expected return: 4.18× / ~33% IRR. Downside scenario assumes 3× ARR exit on £2.99m Year 5 ARR. Returns on no-dilution basis.
+        </p>
+      </div>
+
       <div style={styles.returnsBox} data-animate>
         <p style={{ fontSize: 15, lineHeight: 1.8, color: 'rgba(255,255,255,0.9)', marginBottom: 16 }}>
           £400,000 buys 10.26% of a company with a live product, real customers across two markets, a validated problem, and a team that has already taken personal financial risk to get here.
