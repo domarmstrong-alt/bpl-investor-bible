@@ -48,6 +48,21 @@ export default function Traction() {
       <span className="section-number">05</span>
       <h2>Built in evenings. Live in production. First customers using it daily.</h2>
 
+      <blockquote style={styles.founderNote} data-animate>
+        <p style={{ marginBottom: 16 }}>
+          Why me? Because I was the operator sitting in front of Google searching for inventory software with six barely surviving venues. I knew I needed to do better. I just couldn't find anything that didn't give me a headache before I'd even signed up — the same stock images, the same arbitrary statistics, the same corporate doublespeak on every site. And when I finally got to the pricing page I lost my lunch.
+        </p>
+        <p style={{ marginBottom: 16 }}>
+          I wanted something an actual operator would look at and say 'yes, I see why they'd add that.' So I built it.
+        </p>
+        <p>
+          Why now? Because venues are dying. I've sat in front of a P&L and asked how to extract even the smallest bit of revenue from a failing business. Sometimes the answer isn't make more money. Sometimes it's stop losing it. Quartermaster is that answer.
+        </p>
+      </blockquote>
+      <p style={styles.domInsert} data-animate>
+        <strong>[Dom to insert: X venues, £Y/month, Z months, zero churn.]</strong>
+      </p>
+
       <div style={styles.pillRow} data-animate>
         {tractionItems.map((item) => (
           <span key={item} style={styles.pill}>{item}</span>
@@ -90,6 +105,27 @@ export default function Traction() {
 }
 
 const styles = {
+  founderNote: {
+    fontFamily: "'Playfair Display', Georgia, serif",
+    fontSize: 18,
+    fontStyle: 'italic',
+    color: '#1B2A4A',
+    lineHeight: 1.7,
+    borderLeft: '4px solid #D4A574',
+    padding: '24px 28px',
+    margin: '32px 0 16px',
+    background: 'rgba(212,165,116,0.06)',
+    borderRadius: '0 12px 12px 0',
+    position: 'relative',
+    zIndex: 1,
+  },
+  domInsert: {
+    fontSize: 15,
+    color: '#1B2A4A',
+    marginBottom: 32,
+    position: 'relative',
+    zIndex: 1,
+  },
   pillRow: {
     display: 'flex',
     flexWrap: 'wrap',
