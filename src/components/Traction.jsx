@@ -28,6 +28,16 @@ const team = [
     role: 'Data Scientist',
     body: 'MSc Data Analytics, Queen\'s University Belfast. Building keyword monitoring across hospitality forums, Reddit, LinkedIn and Facebook groups — surfaces inbound pipeline before operators know they\'re looking.',
   },
+  {
+    name: 'Kyle Eades',
+    role: 'Cybersecurity Specialist',
+    body: 'Building Quartermaster\'s security and compliance architecture from day one. Responsible for pre-launch penetration testing, repository security, and Supabase infrastructure hardening. Brings professional cybersecurity expertise to a product handling sensitive operational and financial data for hospitality businesses.',
+  },
+  {
+    name: 'Sam Price',
+    role: 'React Developer',
+    body: 'Frontend developer bringing production-grade React expertise to the Quartermaster interface. Focused on component architecture, performance, and the operator-first UX that makes complex inventory data feel simple.',
+  },
 ]
 
 export default function Traction() {

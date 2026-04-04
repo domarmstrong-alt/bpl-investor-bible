@@ -23,7 +23,7 @@ export default function Market() {
             <div style={{ fontSize: 40, marginBottom: 8 }}>{m.flag}</div>
             <h3 style={styles.country}>{m.country}</h3>
             <div style={styles.venues}>{m.venues}</div>
-            {m.arr && <div style={styles.arr}>{m.arr}<sup className="cite">5</sup></div>}
+            {m.arr && <div style={styles.arr}>{m.arr}</div>}
             <span className={`pill ${m.color}`} style={{ marginTop: 8 }}>{m.timeline}</span>
           </div>
         ))}

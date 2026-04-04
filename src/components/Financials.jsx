@@ -7,7 +7,7 @@ const headlines = [
 ]
 
 const tableHeaders = ['Metric', 'Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5']
-const subHeaders = ['', '£500k raise', 'Intl from M18', '', '', '']
+const subHeaders = ['', '£400k raise', 'Intl from M18', '', '', '']
 
 const tableRows = [
   { metric: 'UK Venues', values: ['12', '35', '80', '150', '220'] },
@@ -81,7 +81,7 @@ export default function Financials() {
       </div>
 
       <p style={styles.note}>
-        £500k raise deployed in Year 1. International expansion from month 18. £200k deployed Year 2 across salaries and marketing. Projections based on 1.5% monthly churn and £99/mo average revenue per venue. Forward-looking estimates — not guaranteed.
+        £400k raise deployed in Year 1. International expansion from month 18. £200k deployed Year 2 across salaries and marketing. Projections based on 1.5% monthly churn and £99/mo average revenue per venue. Forward-looking estimates — not guaranteed.
       </p>
 
       <div className="callout" style={{ marginTop: 24 }} data-animate>
