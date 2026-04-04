@@ -1,14 +1,14 @@
 const markets = [
-  { flag: '\u{1F1EC}\u{1F1E7}', country: 'United Kingdom', venues: '99,120 licensed venues', arr: '£59m ARR at 1% penetration', timeline: 'Active from day 1', color: 'pill-green' },
-  { flag: '\u{1F1FA}\u{1F1F8}', country: 'United States', venues: '500,000+ venues', arr: '$595m ARR at 1% penetration', timeline: 'From month 18', color: 'pill-blue' },
-  { flag: '\u{1F1E6}\u{1F1FA}', country: 'Australia', venues: '50,000+ venues', arr: 'A$59m ARR at 1% penetration', timeline: 'From month 18', color: 'pill-blue' },
-  { flag: '\u{1F1E8}\u{1F1E6}', country: 'Canada', venues: '90,000+ venues', arr: 'C$107m ARR at 1% penetration', timeline: 'From month 18', color: 'pill-blue' },
+  { flag: '\u{1F1EC}\u{1F1E7}', country: 'United Kingdom', venues: '99,120 licensed venues (Britain)', arr: '£118m ARR at full penetration \u00B7 SAM: 62,347 independent operators', timeline: 'Active from day 1', color: 'pill-green' },
+  { flag: '\u{1F1FA}\u{1F1F8}', country: 'United States', venues: '720,000+ food service and drinking establishments (BLS NAICS 722, Q4 2024)', arr: '', timeline: 'From month 18', color: 'pill-blue' },
+  { flag: '\u{1F1E6}\u{1F1FA}', country: 'Australia', venues: '90,000+ hospitality venues (ABS/ResDiary, FY2024)', arr: '', timeline: 'From month 18', color: 'pill-blue' },
+  { flag: '\u{1F1E8}\u{1F1E6}', country: 'Canada', venues: '100,000+ foodservice locations (Restaurants Canada Foodservice Facts, 2024)', arr: '', timeline: 'From month 18', color: 'pill-blue' },
 ]
 
 const ukStats = [
-  { number: '99,120', label: 'Licensed UK venues (December 2024)' },
-  { number: '~75%', label: 'Not using dedicated inventory software' },
-  { number: '£40–60m', label: 'Addressable ARR at mid-case pricing' },
+  { number: '99,120', label: 'Licensed Britain venues (CGA/AlixPartners, December 2024) \u2014 TAM' },
+  { number: '62,347', label: 'Independent operators (CGA breakdown, December 2024) \u2014 SAM' },
+  { number: '60%', label: 'Of UK independents lack the capital or skills to implement technology comparable to larger chains (Mordor Intelligence UK Hospitality Market Report, 2026)' },
 ]
 
 export default function Market() {
@@ -23,7 +23,7 @@ export default function Market() {
             <div style={{ fontSize: 40, marginBottom: 8 }}>{m.flag}</div>
             <h3 style={styles.country}>{m.country}</h3>
             <div style={styles.venues}>{m.venues}</div>
-            <div style={styles.arr}>{m.arr}<sup className="cite">5</sup></div>
+            {m.arr && <div style={styles.arr}>{m.arr}<sup className="cite">5</sup></div>}
             <span className={`pill ${m.color}`} style={{ marginTop: 8 }}>{m.timeline}</span>
           </div>
         ))}
@@ -45,7 +45,8 @@ export default function Market() {
       </div>
 
       <div className="sources-block">
-        Sources: CGA by NIQ &amp; AlixPartners Hospitality Market Monitor (Dec 2024) &middot; UK Food Council 2025 &middot; Blue Paper Labs market analysis
+        Sources: CGA by NIQ &amp; AlixPartners Hospitality Market Monitor (Dec 2024) &middot; BLS NAICS 722 (Q4 2024) &middot; Restaurants Canada Foodservice Facts 2024 &middot; ABS/ResDiary FY2024 &middot; Mordor Intelligence UK Hospitality Market Report 2026
+        <br /><span style={{ fontStyle: 'italic' }}>(Britain — England, Scotland and Wales; Northern Ireland excluded from CGA Outlet Index)</span>
       </div>
     </section>
   )

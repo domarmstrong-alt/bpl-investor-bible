@@ -11,7 +11,7 @@ const returns = [
   { label: 'Entry valuation', value: '£4.2–5m' },
   { label: 'Year 5 ARR', value: '£3.2m' },
   { label: 'Exit at 5\u00D7 ARR', value: '£16m' },
-  { label: 'Investor return on £500k', value: '16–19\u00D7' },
+  { label: 'Investor return on £500k', value: '3.2\u00D7–7.7\u00D7' },
 ]
 
 export default function Ask() {
@@ -19,7 +19,7 @@ export default function Ask() {
     <section id="ask" className="section" data-animate>
       <span className="section-number">07</span>
       <h2>£500,000 for 10–12% equity.</h2>
-      <p className="section-sub">Implied valuation: £4.2–5m.</p>
+      <p className="section-sub">Implied valuation: £4.2–5m (above British Business Bank 2024 pre-seed average of £3.2m; within Equidam European pre-seed median of £4–4.5m. Anchored by: live production product, paying beta users, TechStart NI application under assessment, and vertical SaaS operator-founder credentials).</p>
 
       <div style={{ marginTop: 40, marginBottom: 40 }}>
         {funds.map((f) => (
@@ -44,6 +44,12 @@ export default function Ask() {
             </div>
           ))}
         </div>
+      </div>
+
+      <div className="callout" style={{ marginBottom: 32 }} data-animate>
+        <p style={{ fontSize: 13, lineHeight: 1.7, color: '#1B2A4A' }}>
+          <strong>Investor return detail:</strong> 3.2×–7.7× (26–48% IRR) at 5×–10× ARR exit. Base case: 3.8× / 31% IRR at £16m exit. Upside case: 7.7× / 47% IRR at £32m exit (10× ARR). Source: IRR calculation per standard compounding formula over 5-year horizon.
+        </p>
       </div>
 
       <blockquote style={styles.quote} data-animate>

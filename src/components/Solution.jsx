@@ -3,14 +3,14 @@ const products = [
     name: 'Quartermaster',
     status: 'Live',
     statusColor: 'pill-green',
-    price: '£79/mo',
+    price: '£99/mo per venue',
     desc: 'Inventory management. Square POS integration. AI-powered variance reporting. Unit-level tracking that maps every sale to every ingredient deduction — in real units, not estimates.',
   },
   {
     name: 'Auditor',
     status: 'Building now',
     statusColor: 'pill-amber',
-    price: 'Bundled at £99/mo',
+    price: 'Included at £99/mo',
     desc: 'Digital compliance records. HACCP plan builder. Temperature logs with corrective action prompts. EHO-ready PDF exports. Allergen matrix auto-generated from Quartermaster recipe data.',
   },
   {
@@ -55,7 +55,7 @@ export default function Solution() {
 
       <div className="callout callout-amber" data-animate>
         <p style={{ fontSize: 15, lineHeight: 1.7, color: '#1B2A4A', fontWeight: 500 }}>
-          Quartermaster is the only point in an operator's tech stack where both ingredient cost data and live sell price data exist simultaneously — making true gross profit calculation possible for the first time.
+          Quartermaster is the only Square-native platform combining ingredient-level cost tracking, EHO-ready HACCP documentation, and allergen compliance in a single £99/month subscription — £49/month cheaper than the Square Restaurant Inventory by MarketMan bundle (which requires Square Plus at £69/month plus MarketMan at £79/month), with compliance features MarketMan does not offer.
         </p>
       </div>
     </section>

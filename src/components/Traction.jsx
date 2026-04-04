@@ -2,16 +2,16 @@ const tractionItems = [
   '✓ MVP built solo in under 1 month',
   '✓ Square POS OAuth live in production',
   '✓ Beta venue active and using daily',
-  '✓ Anthropic Claude Partner Network — applied',
-  '✓ TechStart NI CPG\\1309 — under assessment',
-  '✓ Seedcorn B2B 2026 — submitted',
+  '✓ Built on Anthropic Claude API — \'Powered by Claude\' attribution across all AI features',
+  '✓ TechStart NI Concept Plus — application submitted April 2026',
+  '✓ InterTradeIreland Seedcorn 2026 — entered (B2B category, Northern Ireland region)',
 ]
 
 const team = [
   {
     name: 'Dom Armstrong',
     role: 'Founder & CEO',
-    body: '13 years as Operations Director running 6 hospitality venues. Former Combat Medical Technician, British Army. CMgr FCMI. Built Quartermaster solo in evenings in under a month. The product insight comes from lived operational experience — not research.',
+    body: '13 years as Operations Director running 6 hospitality venues. Former Combat Medical Technician, British Army. CMgr FCMI. Built Quartermaster solo in evenings in under a month. The product insight comes from lived operational experience — not research. CMgr FCMI credential is publicly verifiable via the Chartered Management Institute member directory — awarded for demonstrated strategic management competency across 13+ years, not coursework alone.',
   },
   {
     name: 'Adam Cummings',
@@ -52,6 +52,16 @@ export default function Traction() {
             <p style={styles.body}>{t.body}</p>
           </div>
         ))}
+      </div>
+
+      <h2 style={{ marginTop: 48, marginBottom: 16 }}>The Belfast Advantage</h2>
+      <div className="callout" data-animate>
+        <p style={{ fontSize: 15, lineHeight: 1.7, color: '#1B2A4A' }}>
+          Blue Paper Labs is headquartered in Belfast, Northern Ireland — the UK's top location for US R&D investment (Financial Times fDi Markets, 2025). Northern Ireland's tech ecosystem includes Cloudsmith ($23m Series B, March 2025) and 1,500+ Invest NI client companies generating £29 billion in annual sales. Tech salaries in Belfast are materially below London equivalents, extending runway on every hire. The Windsor Framework gives NI-headquartered businesses unique dual-market access to both UK and EU — a structural advantage for European expansion.
+        </p>
+        <div className="source-line">
+          Source: Invest NI Annual Report 2024–25 · FT fDi Markets 2025 · UKTN: Cloudsmith
+        </div>
       </div>
     </section>
   )

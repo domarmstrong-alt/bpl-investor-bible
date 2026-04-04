@@ -2,8 +2,8 @@ const headlines = [
   { number: '£3.2m', label: 'Year 5 ARR' },
   { number: '£1.1m', label: 'Year 5 net profit' },
   { number: '£7.4m', label: '5-year cumulative revenue' },
-  { number: '85%+', label: 'Gross margin' },
-  { number: '£16m', label: 'Implied exit at 5\u00D7 ARR' },
+  { number: '85\u201395%+', label: 'Gross margin (subscription revenue; no professional services component. Stripe fees ~2.2%, infrastructure ~2%, AI ~0.5% at current scale. Currently running ~95%; expected to normalise toward 85\u201390% at scale. Source: Stripe UK pricing April 2026 \u00B7 Benchmarkit SaaS Gross Margin 2025)' },
+  { number: '£16\u201326m', label: 'Implied exit at 5\u00D7\u20138\u00D7 ARR (UK private SaaS median: 4\u20138\u00D7 ARR per Aventis Advisors March 2026)' },
 ]
 
 const tableHeaders = ['Metric', 'Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5']
@@ -32,7 +32,7 @@ export default function Financials() {
       <span className="section-number">06</span>
       <h2>£3.2m ARR by Year 5. Self-funding beyond the raise.</h2>
       <p className="section-sub">
-        £99/mo average revenue per venue. 1.5% monthly churn. International from month 18. Sales team active from month 1.
+        £99/mo per venue (Quartermaster + Auditor included). 1.5% monthly churn (16.6% annualised; consistent with vertical SaaS median of 1.5–2.0% per B2B SaaS Market research, 2025 — below horizontal SMB SaaS benchmark of 3–7% monthly due to Square POS integration switching costs). International from month 18. Sales team active from month 1.
       </p>
 
       <div style={styles.headlineRow} data-animate>
@@ -83,6 +83,12 @@ export default function Financials() {
       <p style={styles.note}>
         £500k raise deployed in Year 1. International expansion from month 18. £200k deployed Year 2 across salaries and marketing. Projections based on 1.5% monthly churn and £99/mo average revenue per venue. Forward-looking estimates — not guaranteed.
       </p>
+
+      <div className="callout" style={{ marginTop: 24 }} data-animate>
+        <p style={{ fontSize: 13, lineHeight: 1.7, color: '#1B2A4A' }}>
+          <strong>COGS breakdown at 100 venues:</strong> Stripe ~2.2% (£218/month), Supabase/Vercel infrastructure ~1.5% (£148/month), Anthropic API with prompt caching ~0.5% (&lt;£50/month). Total COGS ~4.2% of revenue. Gross margin ~95.8% at 100 venues.
+        </p>
+      </div>
     </section>
   )
 }

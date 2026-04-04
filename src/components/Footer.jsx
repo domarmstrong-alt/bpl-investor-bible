@@ -20,7 +20,7 @@ export default function Footer() {
           </div>
         </div>
         <div style={styles.fine}>
-          This document is confidential and intended solely for the named recipient. Financial projections are forward-looking estimates based on current assumptions and are not guaranteed. Sources: WRAP Guardians of Grub &middot; CGA by NIQ &amp; AlixPartners Hospitality Market Monitor (Dec 2024) &middot; UK Food Council 2025 &middot; Jelly UK Hospitality Analysis 2025 &middot; Trustpilot &middot; G2 &middot; Square App Marketplace &middot; Blue Paper Labs market analysis March 2026.
+          This document is confidential and intended solely for the named recipient. Financial projections are forward-looking estimates based on current assumptions and are not guaranteed. Sources: WRAP Hospitality &amp; Food Service Sector Page &middot; CGA by NIQ &amp; AlixPartners Hospitality Market Monitor (Dec 2024) &middot; BLS NAICS 722 Q4 2024 &middot; Restaurants Canada Foodservice Facts 2024 &middot; ABS/ResDiary FY2024 &middot; Mordor Intelligence UK Hospitality Market Report 2026 &middot; Growyze Hospitality Inventory Management Guide &middot; Business Accounting UK 2025 &middot; FSA FHRS Guidance &middot; FSA Allergen Law Evaluation 2023 &middot; Aventis Advisors SaaS Multiples March 2026 &middot; Benchmarkit SaaS Gross Margin 2025 &middot; B2B SaaS Market Vertical vs Horizontal Churn 2025 &middot; Stripe UK Pricing April 2026 &middot; British Business Bank 2024 &middot; Equidam Valuation Delta Q3 2025 &middot; Square UK Press Release 2 April 2026 &middot; Invest NI Annual Report 2024–25 &middot; FT fDi Markets 2025.
         </div>
       </div>
     </footer>

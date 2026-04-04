@@ -1,6 +1,7 @@
 const rows = [
-  { name: 'Quartermaster', price: '£79–99', target: 'Independent 1–5 venues', ai: '✓ Claude API', pos: '2–4 hrs', haccp: '✓', uk: '✓', highlight: true },
-  { name: 'MarketMan', price: '~£150', target: 'Multi-site chains', ai: '✗', pos: 'Daily only', haccp: '✗', uk: '✗' },
+  { name: 'Quartermaster', price: '£99', target: 'Independent 1–5 venues', ai: '✓ Claude API', pos: '2–4 hrs', haccp: '✓', uk: '✓', highlight: true },
+  { name: 'MarketMan', price: '~£159', target: 'Multi-site chains', ai: '✗', pos: 'Daily only', haccp: '✗', uk: '✗' },
+  { name: 'MarketMan via Square (UK)', price: '£148', target: 'Square users', ai: '✗', pos: 'Daily only', haccp: '✗', uk: '✗', note: '£79/mo add-on + £69/mo Square Plus' },
   { name: 'Nory', price: '£295/venue', target: 'Restaurant groups', ai: 'Partial', pos: 'Real-time', haccp: '✗', uk: '✗' },
   { name: 'Apicbase', price: '£213+', target: 'Enterprise', ai: '✗', pos: 'Varies', haccp: '✓', uk: '✗' },
   { name: 'Trail (Access)', price: '£38/site', target: 'Compliance only', ai: '✗', pos: 'N/A', haccp: 'Basic', uk: '✗' },
@@ -63,16 +64,16 @@ export default function Competitive() {
         </div>
       </div>
 
-      {/* Square Marketplace callout */}
+      {/* Square competitive accelerant */}
       <div className="callout" data-animate>
         <h3 style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: 18, marginBottom: 8, color: '#1B2A4A' }}>
-          The Square App Marketplace gap
+          Square just validated this market — and handed us the advantage
         </h3>
         <p style={{ fontSize: 14, lineHeight: 1.7, color: '#1B2A4A' }}>
-          No UK-native hospitality inventory app exists on the Square App Marketplace. The category is dominated by US and Australian tools with weak UK presence. Quartermaster at £79–99/mo would be the only UK-built option — undercutting every incumbent.
+          On 2 April 2026, Square launched 'Square Restaurant Inventory by MarketMan' in the UK, Ireland, US, Canada, France, Spain, and Australia — confirming the market opportunity. The total cost for a UK operator: £69/month (Square for Restaurants Plus) + £79/month (MarketMan add-on) = £148/month per location. Quartermaster delivers inventory management plus full compliance (HACCP, allergen matrix, EHO-ready exports) for £99/month standalone — £49/month cheaper, with compliance features MarketMan does not offer. Square has validated the category. UK operators deserve a purpose-built UK answer.
         </p>
         <div className="source-line">
-          Source: Square App Marketplace analysis, Blue Paper Labs — March 2026
+          Source: Square UK Press Release, 2 April 2026 · Square GB Pricing Page, April 2026
         </div>
       </div>
     </section>

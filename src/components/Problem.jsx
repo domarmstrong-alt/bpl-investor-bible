@@ -1,30 +1,30 @@
 const cards = [
   {
-    stat: '£10,000/year',
+    stat: '£10,000–£13,000/year',
     label: 'Average food waste cost per venue',
-    body: 'Food waste costs the UK hospitality sector £3.2 billion every year. The average venue loses £10,000 annually to waste that better inventory tracking prevents.',
-    source: 'Source: WRAP — Guardians of Grub',
+    body: 'Food waste costs the UK hospitality and food service sector £3.2 billion every year — an average of £10,000–£13,000 per outlet annually. Better inventory tracking directly prevents this loss.',
+    source: 'Source: WRAP Hospitality & Food Service Sector Page (wrap.ngo) — both figures confirmed on same page',
     cite: 1,
   },
   {
     stat: '10–20 hrs/week',
     label: 'Lost to manual stock reconciliation',
     body: 'Manual tracking systems demand 10 to 20 administrative hours every week — time spent cross-referencing spreadsheets, supplier invoices and sales reports that rarely agree.',
-    source: 'Source: Jelly UK Hospitality Analysis, 2025',
+    source: 'Source: growyze Hospitality Inventory Management Guide (operational data); Business Accounting UK, 2025',
     cite: 2,
   },
   {
     stat: '£1,800+/year',
     label: 'Spent on disconnected tools per venue',
-    body: 'The average independent operator pays separately for a stock system, compliance tool, rota software and booking platform. None of them talk to each other.',
-    source: 'Source: Blue Paper Labs operator analysis (Leafe + BrightHR + NCAS stack)',
+    body: 'A representative 5-employee single-site independent operator pays £336/yr (Leafe Basic), £1,000/yr (BrightHR Core HR, 5 employees at £16.67/employee/month), and £366/yr (NCASS Fixed Site, inc. VAT) — a combined £1,702/yr on disconnected tools that do not share data.',
+    source: 'Source: Leafe pricing page · BrightHR pricing page · NCASS membership page — all verified April 2026',
     cite: 3,
   },
   {
     stat: 'EHO exposure',
     label: 'From paper-based compliance records',
-    body: 'Compliance records kept in folders and WhatsApp messages. Digital timestamped records directly improve Food Standards Agency inspection confidence scores.',
-    source: 'Source: Food Standards Agency inspection framework',
+    body: 'HACCP documentation is a legal requirement under Regulation (EC) 852/2004 (assimilated into UK law). Digital timestamped records directly support the FSA\u2019s \u2018confidence in management\u2019 scoring — the third and most discretionary element of every EHO inspection. 32% of UK food businesses do not feel fully informed on allergen compliance requirements (FSA Evaluation, 2023).',
+    source: 'Source: FSA FHRS guidance · FSA Allergen Law Evaluation 2023',
     cite: 4,
   },
 ]
