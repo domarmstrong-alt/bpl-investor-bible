@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section id="hero" style={styles.hero} data-animate>
       <div style={styles.inner}>
-        <span style={styles.badge}>Investor Brief &middot; Confidential &middot; 2026</span>
+        <span style={styles.badge}>Investment Case &middot; Confidential &middot; 2026</span>
 
         <h1 style={styles.heading}>
           Built by the industry <em>for the industry</em>
