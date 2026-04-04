@@ -14,7 +14,7 @@ export default function Hero() {
         </p>
 
         <div style={styles.pills}>
-          {['£99/mo per venue', '99,120 Britain licensed venues', 'Live product in production', '£400k raise · 11.4% equity · £3.5m pre-money'].map(
+          {['£99/mo per venue', '1,053,120 venues across six English-speaking markets', 'Live product in production', '£400k raise · 10.26% post-money equity · £3.5m pre-money'].map(
             (text) => (
               <span key={text} style={styles.pill}>{text}</span>
             )

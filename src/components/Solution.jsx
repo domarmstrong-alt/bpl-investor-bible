@@ -55,7 +55,7 @@ export default function Solution() {
 
       <div className="callout callout-amber" data-animate>
         <p style={{ fontSize: 15, lineHeight: 1.7, color: '#1B2A4A', fontWeight: 500 }}>
-          Quartermaster is the only Square-native platform combining ingredient-level cost tracking, EHO-ready HACCP documentation, and allergen compliance in a single £99/month subscription — £49/month cheaper than the Square Restaurant Inventory by MarketMan bundle (which requires Square Plus at £69/month plus MarketMan at £79/month), with compliance features MarketMan does not offer.
+          Quartermaster is the only Square-native platform combining ingredient-level cost tracking, EHO-ready HACCP documentation, and allergen compliance in a single £99/month subscription — £49/month cheaper than the Square Restaurant Inventory by MarketMan bundle (Square Plus £69/month + MarketMan £79/month = £148/month total), with compliance features MarketMan does not offer. Works across Square, Lightspeed, and Toast.
         </p>
       </div>
     </section>

@@ -1,7 +1,6 @@
 const rows = [
-  { name: 'Quartermaster', price: '£99', target: 'Independent 1–5 venues', ai: '✓ Claude API', pos: '2–4 hrs', haccp: '✓', uk: '✓', highlight: true },
-  { name: 'MarketMan', price: '~£159', target: 'Multi-site chains', ai: '✗', pos: 'Daily only', haccp: '✗', uk: '✗' },
-  { name: 'MarketMan via Square (UK)', price: '£148', target: 'Square users', ai: '✗', pos: 'Daily only', haccp: '✗', uk: '✗', note: '£79/mo add-on + £69/mo Square Plus' },
+  { name: 'Quartermaster', price: '£99/mo', target: 'Independent 1–5 venues, Square/Lightspeed/Toast', ai: '✓ Claude API', pos: 'Square · Lightspeed · Toast (Y1–2)', haccp: '✓', uk: '✓', highlight: true },
+  { name: 'MarketMan', price: '£150+ standalone · £148/mo via Square', target: 'Multi-site chains', ai: '✗', pos: 'Daily (standalone) · Square · Lightspeed · Toast', haccp: '✗', uk: '✗' },
   { name: 'Nory', price: '£295/venue', target: 'Restaurant groups', ai: 'Partial', pos: 'Real-time', haccp: '✗', uk: '✗' },
   { name: 'Apicbase', price: '£213+', target: 'Enterprise', ai: '✗', pos: 'Varies', haccp: '✓', uk: '✗' },
   { name: 'Trail (Access)', price: '£38/site', target: 'Compliance only', ai: '✗', pos: 'N/A', haccp: 'Basic', uk: '✗' },
@@ -49,6 +48,7 @@ export default function Competitive() {
 
       <div className="source-line" style={{ marginTop: 8, marginBottom: 32 }}>
         Sources: Company websites, March 2026. All prices in £ GBP. USD/EUR converted at Wise mid-market rate 13 March 2026.
+        <br />MarketMan via Square (UK): £69/mo Square Plus + £79/mo add-on = £148/mo total. 2.4★ Trustpilot (Poor) · Zero replies to negative reviews · Billing complaints active as of April 2026.
       </div>
 
       {/* MarketMan callout */}
@@ -70,10 +70,10 @@ export default function Competitive() {
           Square just validated this market — and handed us the advantage
         </h3>
         <p style={{ fontSize: 14, lineHeight: 1.7, color: '#1B2A4A' }}>
-          On 2 April 2026, Square launched 'Square Restaurant Inventory by MarketMan' in the UK, Ireland, US, Canada, France, Spain, and Australia — confirming the market opportunity. The total cost for a UK operator: £69/month (Square for Restaurants Plus) + £79/month (MarketMan add-on) = £148/month per location. Quartermaster delivers inventory management plus full compliance (HACCP, allergen matrix, EHO-ready exports) for £99/month standalone — £49/month cheaper, with compliance features MarketMan does not offer. Square has validated the category. UK operators deserve a purpose-built UK answer.
+          On 2 April 2026, Square launched 'Square Restaurant Inventory by MarketMan' globally including the UK and Ireland — confirming the market opportunity. The total cost for an operator: £69/month (Square for Restaurants Plus) + £79/month (MarketMan add-on) = £148/month per location. Quartermaster delivers inventory management plus full compliance (HACCP, allergen matrix, EHO-ready exports) for £99/month — £49/month cheaper, with compliance features MarketMan does not offer, across Square, Lightspeed, and Toast. MarketMan has also integrated with Lightspeed and Toast for years — but at £148/month for Square users alone, and with a 2.4★ Trustpilot rating, UK and Irish operators deserve a purpose-built answer. Toast's December 2025 Dublin expansion confirms the Irish market is validated and moving. Quartermaster's compliance-first positioning differentiates it from Toast's enterprise-oriented stack.
         </p>
         <div className="source-line">
-          Source: Square UK Press Release, 2 April 2026 · Square GB Pricing Page, April 2026
+          Source: Square UK Press Release 2 April 2026 · Square GB Pricing Page April 2026 · Irish Times: Toast Dublin office December 2025 · MarketMan Trustpilot April 2026
         </div>
       </div>
     </section>
@@ -105,6 +105,5 @@ const styles = {
   td: {
     padding: '10px 14px',
     borderBottom: '1px solid #eee',
-    whiteSpace: 'nowrap',
   },
 }

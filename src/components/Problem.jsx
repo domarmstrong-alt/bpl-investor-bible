@@ -27,6 +27,13 @@ const cards = [
     source: 'Source: FSA FHRS guidance · FSA Allergen Law Evaluation 2023',
     cite: 4,
   },
+  {
+    stat: '\u20AC300m+/year',
+    label: 'Lost to food waste in Irish hospitality alone',
+    body: 'Irish hospitality generates 175,000 tonnes of food waste annually at a cost of over \u20AC300 million to the sector \u2014 the same inventory-gap problem Quartermaster solves in Britain, driven by the same manual-first operational culture.',
+    source: 'Source: EPA Ireland National Waste Statistics 2023 \u00B7 Food Waste Charter Ireland',
+    cite: 5,
+  },
 ]
 
 export default function Problem() {
