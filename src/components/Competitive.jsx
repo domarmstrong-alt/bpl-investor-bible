@@ -4,7 +4,7 @@ const rows = [
   { name: 'Nory', price: '£295/venue', target: 'Restaurant groups', ai: 'Partial (predictive)', pos: 'Real-time', haccp: '✗', uk: '✗' },
   { name: 'Apicbase', price: '£213+', target: 'Enterprise', ai: '✗', pos: 'Varies', haccp: '✓', uk: '✗' },
   { name: 'Trail (Access)', price: '£38/site', target: 'Compliance only', ai: '✗', pos: 'N/A', haccp: 'Basic', uk: '✗' },
-  { name: 'Leafe', price: '£25/yr', target: 'SMB compliance', ai: '✗', pos: '✗', haccp: '✗', uk: '✓' },
+  { name: 'Leafe', price: '£28–£119/mo', target: 'SMB compliance + rota (Pro tier)', ai: '✗', pos: '✗', haccp: '✗', uk: '✓' },
   { name: 'WISK AI', price: '£150+', target: 'Beverage-focused', ai: 'Partial', pos: '✓', haccp: '✗', uk: '✗' },
 ]
 
