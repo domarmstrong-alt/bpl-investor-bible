@@ -64,7 +64,7 @@ export default function Solution() {
 
       <div className="callout callout-amber" data-animate>
         <p style={{ fontSize: 15, lineHeight: 1.7, color: '#1B2A4A', fontWeight: 500 }}>
-          Quartermaster delivers a complete operations suite — inventory, compliance, workforce, bookings, finance, and CRM — for £150/month. Nory charges £295/venue for AI predictions operators don't trust. MarketMan via Square costs £148/month for inventory alone with no compliance. The full suite displaces 4–5 disconnected tools at a lower combined cost.
+          Blue Paper Labs delivers a complete operations suite — inventory, compliance, workforce, bookings, finance, and CRM — for £150/month. Nory charges £295/venue for AI predictions operators don't trust. MarketMan via Square costs £148/month for inventory alone with no compliance. The full suite displaces 4–5 disconnected tools at a lower combined cost.
         </p>
       </div>
     </section>

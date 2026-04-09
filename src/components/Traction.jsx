@@ -28,12 +28,12 @@ const team = [
   {
     name: 'Kyle Eades',
     role: 'Cybersecurity Specialist',
-    body: 'Building Quartermaster\'s security and compliance architecture from day one. Responsible for pre-launch penetration testing, repository security, and Supabase infrastructure hardening. Brings professional cybersecurity expertise to a product handling sensitive operational and financial data for hospitality businesses.',
+    body: 'Building Blue Paper Labs\' security and compliance architecture from day one. Responsible for pre-launch penetration testing, repository security, and Supabase infrastructure hardening. Brings professional cybersecurity expertise to a product handling sensitive operational and financial data for hospitality businesses.',
   },
   {
     name: 'Sam Price',
     role: 'React Developer',
-    body: 'Frontend developer bringing production-grade React expertise to the Quartermaster interface. Focused on component architecture, performance, and the operator-first UX that makes complex inventory data feel simple.',
+    body: 'Frontend developer bringing production-grade React expertise to the Blue Paper Labs interface. Focused on component architecture, performance, and the operator-first UX that makes complex inventory data feel simple.',
   },
   {
     name: 'Sabah Sarwar',
@@ -56,7 +56,7 @@ export default function Traction() {
           I wanted something an actual operator would look at and say 'yes, I see why they'd add that.' So I built it.
         </p>
         <p>
-          Why now? Because venues are dying. I've sat in front of a P&L and asked how to extract even the smallest bit of revenue from a failing business. Sometimes the answer isn't make more money. Sometimes it's stop losing it. Quartermaster is that answer.
+          Why now? Because venues are dying. I've sat in front of a P&L and asked how to extract even the smallest bit of revenue from a failing business. Sometimes the answer isn't make more money. Sometimes it's stop losing it. Blue Paper Labs is that answer.
         </p>
       </blockquote>
       <p style={styles.domInsert} data-animate>

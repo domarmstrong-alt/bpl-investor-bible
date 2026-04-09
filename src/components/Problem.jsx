@@ -16,7 +16,7 @@ const cards = [
   {
     stat: '£1,700+/year',
     label: 'Spent on disconnected tools per venue',
-    body: 'A representative 5-employee single-site independent operator pays £336/yr (Leafe Basic), £1,000/yr (BrightHR Core HR, 5 employees at £16.67/employee/month), and £366/yr (NCASS Fixed Site, inc. VAT) — a combined £1,702/yr on disconnected tools that do not share data. At £150/month standard (£1,800/yr) or £100/month early adopter (£1,200/yr), Quartermaster\'s full suite replaces this entire stack with better integration and compliance features none of these tools offer.',
+    body: 'A representative 5-employee single-site independent operator pays £336/yr (Leafe Basic), £1,000/yr (BrightHR Core HR, 5 employees at £16.67/employee/month), and £366/yr (NCASS Fixed Site, inc. VAT) — a combined £1,702/yr on disconnected tools that do not share data. At £150/month standard (£1,800/yr) or £100/month early adopter (£1,200/yr), the Blue Paper Labs suite replaces this entire stack with better integration and compliance features none of these tools offer.',
     source: 'Source: Leafe pricing page · BrightHR pricing page · NCASS membership page — all verified April 2026',
     cite: 3,
   },
@@ -30,7 +30,7 @@ const cards = [
   {
     stat: '\u20AC300m+/year',
     label: 'Lost to food waste in Irish hospitality alone',
-    body: 'Irish hospitality generates 175,000 tonnes of food waste annually at a cost of over \u20AC300 million to the sector \u2014 the same inventory-gap problem Quartermaster solves in Britain, driven by the same manual-first operational culture.',
+    body: 'Irish hospitality generates 175,000 tonnes of food waste annually at a cost of over \u20AC300 million to the sector \u2014 the same inventory-gap problem Blue Paper Labs solves in Britain, driven by the same manual-first operational culture.',
     source: 'Source: EPA Ireland National Waste Statistics 2023 \u00B7 Food Waste Charter Ireland',
     cite: 5,
   },
