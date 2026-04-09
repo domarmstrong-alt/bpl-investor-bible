@@ -4,7 +4,7 @@ const rows = [
   { name: 'Nory', price: '£295/venue', target: 'Restaurant groups', ai: 'Partial (predictive)', pos: 'Real-time', haccp: '✗', uk: '✗' },
   { name: 'Apicbase', price: '£213+', target: 'Enterprise', ai: '✗', pos: 'Varies', haccp: '✓', uk: '✗' },
   { name: 'Trail (Access)', price: '£38/site', target: 'Compliance only', ai: '✗', pos: 'N/A', haccp: 'Basic', uk: '✗' },
-  { name: 'Leafe', price: '£28–£119/mo', target: 'SMB compliance + rota (Pro tier)', ai: '✗', pos: '✗', haccp: '✗', uk: '✓' },
+  { name: 'Leafe', price: '£28–£119/mo', target: 'SMB compliance + rota (Pro tier)', ai: '✗', pos: '✗', haccp: 'Pro tier', uk: '✓' },
   { name: 'WISK AI', price: '£150+', target: 'Beverage-focused', ai: 'Partial', pos: '✓', haccp: '✗', uk: '✗' },
 ]
 
@@ -38,7 +38,7 @@ export default function Competitive() {
                 <td style={styles.td}>{r.target}</td>
                 <td style={{ ...styles.td, color: r.ai.startsWith('✓') ? '#2e7d32' : r.ai === '✗' ? '#c62828' : '#8B6914' }}>{r.ai}</td>
                 <td style={styles.td}>{r.pos}</td>
-                <td style={{ ...styles.td, color: r.haccp === '✓' ? '#2e7d32' : r.haccp === '✗' ? '#c62828' : '#666' }}>{r.haccp}</td>
+                <td style={{ ...styles.td, color: r.haccp === '✓' ? '#2e7d32' : r.haccp === '✗' ? '#c62828' : '#8B6914' }}>{r.haccp}</td>
                 <td style={{ ...styles.td, color: r.uk === '✓' ? '#2e7d32' : '#c62828' }}>{r.uk}</td>
               </tr>
             ))}
