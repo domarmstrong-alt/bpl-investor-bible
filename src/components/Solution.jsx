@@ -3,6 +3,7 @@ const products = [
     name: 'Quartermaster',
     status: 'Live',
     statusColor: 'pill-green',
+    tagline: 'Track every unit. Know what\u2019s missing.',
     desc: 'Inventory management. Square POS integration. AI-powered variance reporting. Unit-level tracking that maps every sale to every ingredient deduction — in real units, not estimates.',
   },
   {
@@ -43,8 +44,8 @@ export default function Solution() {
   return (
     <section id="solution" className="section" data-animate>
       <span className="section-number">02</span>
-      <h2>Track every unit. Know what's missing.</h2>
-      <p className="section-sub">Hospitality Ops made well easy.</p>
+      <h2>One suite. One price. Every tool your venue needs.</h2>
+      <p className="section-sub">One suite. One login. Shared data across every screen.</p>
       <p className="section-sub" style={{ marginTop: -8, fontSize: 15, fontWeight: 600, color: '#7BBDD0' }}>Full suite: £150/mo · Additional venues: £50/mo · First 100 users: £100/mo for life</p>
 
       <div className="card-grid">
