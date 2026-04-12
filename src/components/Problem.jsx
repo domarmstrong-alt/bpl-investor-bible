@@ -1,8 +1,8 @@
 const cards = [
   {
-    stat: '£10,000–£13,000/year',
+    stat: '£10,000/year',
     label: 'Average food waste cost per venue',
-    body: 'Food waste costs the UK hospitality and food service sector £3.2 billion every year — an average of £10,000–£13,000 per outlet annually. Better inventory tracking directly prevents this loss.',
+    body: 'Food waste costs the UK hospitality and food service sector £3.2 billion every year — an average of £10,000 per outlet annually. Better inventory tracking directly prevents this loss.',
     source: 'Source: WRAP Hospitality & Food Service Sector Page (wrap.ngo) — both figures confirmed on same page',
     cite: 1,
   },
@@ -14,24 +14,24 @@ const cards = [
     cite: 2,
   },
   {
-    stat: '£1,700+/year',
+    stat: '£1,731/year',
     label: 'Spent on disconnected tools per venue',
-    body: 'A representative 5-employee single-site independent operator pays £336/yr (Leafe Basic), £1,000/yr (BrightHR Core HR, 5 employees at £16.67/employee/month), and £366/yr (NCASS Fixed Site, inc. VAT) — a combined £1,702/yr on disconnected tools that do not share data. At £100/month standard (£1,200/yr) or £79/month early adopter (£948/yr), Blue Paper Labs replaces Leafe (inventory), NCASS (compliance), and BrightHR\'s rota functionality entirely — saving £502/yr at standard or £754/yr as an early adopter, with better integration and compliance features none of these tools offer individually. Operators retain employment law advisory from any provider at their discretion.',
+    body: 'A representative 5-employee single-site independent operator pays £336/yr (Leafe Basic, £28/mo), £1,000/yr (BrightHR Core HR, 5 employees at £16.67/employee/month), and £395/yr (NCASS Standard Fixed Site, £32.91/mo) — a combined £1,731/yr on disconnected tools that do not share data. All third-party prices ex VAT, verified April 2026. At £100/month standard (£1,200/yr) or £79/month early adopter (£948/yr), Blue Paper Labs replaces Leafe (inventory), NCASS (compliance), and BrightHR\'s rota functionality entirely — saving £531/yr at standard or £783/yr as an early adopter, with better integration and compliance features none of these tools offer individually. Operators retain employment law advisory from any provider at their discretion.',
     source: 'Source: Leafe pricing page · BrightHR pricing page · NCASS membership page — all verified April 2026',
     cite: 3,
   },
   {
     stat: 'EHO exposure',
     label: 'From paper-based compliance records',
-    body: 'HACCP documentation is a legal requirement under Regulation (EC) 852/2004 (assimilated into UK law). Digital timestamped records directly support the FSA\u2019s \u2018confidence in management\u2019 scoring — the third and most discretionary element of every EHO inspection. 32% of UK food businesses do not feel fully informed on allergen compliance requirements (FSA Evaluation, 2023).',
-    source: 'Source: FSA FHRS guidance · FSA Allergen Law Evaluation 2023',
+    body: 'HACCP documentation is a legal requirement under Regulation (EC) 852/2004 (assimilated into UK law). Digital timestamped records directly support the FSA\u2019s \u2018confidence in management\u2019 scoring — the third and most discretionary element of every EHO inspection. 32% of food businesses aware of PPDS requirements wanted additional support to comply with allergen labelling (FSA PPDS Evaluation, July 2023).',
+    source: 'Source: FSA FHRS guidance · FSA PPDS Evaluation, July 2023',
     cite: 4,
   },
   {
     stat: '\u20AC300m+/year',
     label: 'Lost to food waste in Irish hospitality alone',
     body: 'Irish hospitality generates 175,000 tonnes of food waste annually at a cost of over \u20AC300 million to the sector \u2014 the same inventory-gap problem Blue Paper Labs solves in Britain, driven by the same manual-first operational culture.',
-    source: 'Source: EPA Ireland National Waste Statistics 2023 \u00B7 Food Waste Charter Ireland',
+    source: 'Source: EPA Ireland, Reducing Commercial Food Waste in Ireland 2019 \u00B7 EPA Food Waste Statistics 2023 \u00B7 Food Waste Charter Ireland',
     cite: 5,
   },
 ]

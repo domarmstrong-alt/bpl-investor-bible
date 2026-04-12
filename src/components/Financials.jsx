@@ -3,7 +3,7 @@ const headlines = [
   { number: '£1.5m', label: 'Year 5 net profit' },
   { number: '£8.21m', label: '5-year cumulative revenue' },
   { number: '85\u201395%+', label: 'Gross margin (subscription revenue only; no professional services. Stripe ~2.2%, infrastructure ~1.5%, AI ~0.5% at current scale. Currently ~95%; expected to normalise toward 85\u201390% at scale.)' },
-  { number: '£22\u201344m', label: 'Implied exit at 5\u00D7\u201310\u00D7 ARR (UK private SaaS median: 4\u20138\u00D7 ARR, Aventis Advisors March 2026)' },
+  { number: '£22\u201344m', label: 'Implied exit at 5\u00D7\u201310\u00D7 ARR (Global private SaaS long-term median 4.5\u00D7, top quartile above 8.1\u00D7 (Aventis Advisors, March 2026))' },
 ]
 
 const tableHeaders = ['Metric', 'Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5']
@@ -37,7 +37,7 @@ export default function Financials() {
       <span className="section-number">06</span>
       <h2>£4.42m ARR by Year 5. Self-funding beyond the raise.</h2>
       <p className="section-sub">
-        £100/mo core suite at launch (Quartermaster + Auditor + Secretary). First 79 users at £79/mo for life. Additional venues £50/mo. Receptionist (£20/mo), Orator (£20/mo), and Clerk (£10/mo) launch in Year 2 — full suite £150/mo. 1.5% monthly churn (16.6% annualised) — consistent with vertical SaaS median of 1.5–2.0% per B2B SaaS Market research 2025, below horizontal SMB SaaS benchmark of 3–7% monthly, due to Square POS integration switching costs. Venue figures represent net active customers after churn. International from Month 18 (Ireland from Month 6). Sales team active from Month 1.
+        £100/mo core suite at launch (Quartermaster + Auditor + Secretary). First 79 users at £79/mo for life. Additional venues £50/mo. Receptionist (£20/mo), Orator (£20/mo), and Clerk (£10/mo) launch in Year 2 — full suite £150/mo. 1.5% monthly churn (16.6% annualised) — consistent with vertical SaaS median of 1.5–2.0% per Recurly Churn Benchmark Report 2025 \u00B7 Baremetrics SaaS Benchmarks, below horizontal SMB SaaS benchmark of 3–7% monthly, due to Square POS integration switching costs. Venue figures represent net active customers after churn. International from Month 18 (Ireland from Month 6). Sales team active from Month 1.
       </p>
 
       <div style={styles.headlineRow} data-animate>

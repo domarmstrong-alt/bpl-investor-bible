@@ -1,7 +1,7 @@
 const rows = [
   { name: 'Blue Paper Labs', price: '£100/mo core · £150/mo full suite (Y2)', target: 'Independent 1–5 venues, Square/Lightspeed/Toast', ai: '✓ Claude API', pos: 'Square · Lightspeed · Toast (Y1–2)', haccp: '✓', uk: '✓', highlight: true },
   { name: 'MarketMan', price: '£150+ standalone · £148/mo via Square', target: 'Multi-site chains', ai: '✗', pos: 'Daily (standalone) · Square · Lightspeed · Toast', haccp: '✗', uk: '✗' },
-  { name: 'Nory', price: '£295/venue', target: 'Restaurant groups', ai: 'Partial (predictive)', pos: 'Real-time', haccp: '✗', uk: '✗' },
+  { name: 'Nory', price: '£299/venue', target: 'Restaurant groups', ai: 'Partial (predictive)', pos: 'Real-time', haccp: '✗', uk: '✗' },
   { name: 'Apicbase', price: '£213+', target: 'Enterprise', ai: '✗', pos: 'Varies', haccp: '✓', uk: '✗' },
   { name: 'Trail (Access)', price: '£38/site', target: 'Compliance only', ai: '✗', pos: 'N/A', haccp: 'Basic', uk: '✗' },
   { name: 'Leafe', price: '£28–£119/mo', target: 'SMB compliance + rota (Pro tier)', ai: '✗', pos: '✗', haccp: 'Pro tier', uk: '✓' },
@@ -48,7 +48,7 @@ export default function Competitive() {
 
       <div className="source-line" style={{ marginTop: 8, marginBottom: 32 }}>
         Sources: Company websites, March 2026. All prices in £ GBP. USD/EUR converted at Wise mid-market rate 13 March 2026.
-        <br />MarketMan via Square (UK): £69/mo Square Plus + £79/mo add-on = £148/mo total. 2.4★ Trustpilot (Poor) · Zero replies to negative reviews · Billing complaints active as of April 2026.
+        <br />MarketMan via Square (UK): £69/mo Square Plus + £79/mo add-on = £148/mo total. £79/month applies to sellers new to MarketMan (Square UK, April 2026). 2.4★ Trustpilot (Poor) · Zero replies to negative reviews · Billing complaints active as of April 2026.
       </div>
 
       {/* MarketMan callout */}
@@ -70,7 +70,7 @@ export default function Competitive() {
           Square just validated this market — and handed us the advantage
         </h3>
         <p style={{ fontSize: 14, lineHeight: 1.7, color: '#1B2A4A' }}>
-          On 2 April 2026, Square launched 'Square Restaurant Inventory by MarketMan' globally including the UK and Ireland — confirming the market opportunity. The total cost for an operator: £69/month (Square for Restaurants Plus) + £79/month (MarketMan add-on) = £148/month per location. For £48/month less than the MarketMan bundle, operators get inventory, compliance, and workforce management — the Blue Paper Labs core suite at £100/month, with compliance features MarketMan does not offer, across Square, Lightspeed, and Toast. Bookings, finance, and CRM arrive in Year 2 at a combined £50/month, bringing the full suite to £150/month. MarketMan has also integrated with Lightspeed and Toast for years — but at £148/month for Square users alone, and with a 2.4 star Trustpilot rating, UK and Irish operators deserve a purpose-built answer. Toast's December 2025 Dublin expansion confirms the Irish market is validated and moving. Blue Paper Labs' compliance-first positioning differentiates it from Toast's enterprise-oriented stack.
+          On 2 April 2026, Square launched 'Square Restaurant Inventory by MarketMan' globally including the UK and Ireland — confirming the market opportunity. The total cost for an operator: £69/month (Square for Restaurants Plus) + £79/month (MarketMan add-on) = £148/month per location. For £48/month less than the MarketMan bundle, operators get inventory, compliance, and workforce management — the Blue Paper Labs core suite at £100/month, with compliance features MarketMan does not offer, across Square, Lightspeed, and Toast. Bookings, finance, and CRM arrive in Year 2 at a combined £50/month, bringing the full suite to £150/month. MarketMan has also integrated with Lightspeed and Toast for years — but at £148/month for Square users alone, and with a 2.4 star Trustpilot rating, UK and Irish operators deserve a purpose-built answer. Toast's December 2025 Dublin R&D expansion confirms the Irish market is validated and moving. Blue Paper Labs' compliance-first positioning differentiates it from Toast's enterprise-oriented stack.
         </p>
         <div className="source-line">
           Source: Square UK Press Release 2 April 2026 · Square GB Pricing Page April 2026 · Irish Times: Toast Dublin office December 2025 · MarketMan Trustpilot April 2026

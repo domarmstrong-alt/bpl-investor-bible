@@ -14,7 +14,7 @@ export default function Ask() {
     <section id="ask" className="section" data-animate>
       <span className="section-number">07</span>
       <h2>£400,000 for 10.26% post-money equity.</h2>
-      <p className="section-sub">£3.5m pre-money. Above the British Business Bank 2024 pre-seed average of £3.2m. Within the Equidam European pre-seed median of £4–4.5m. Anchored by a live product in production, real beta venues using it daily, a team that believed enough to take founder-level salaries, a TechStart NI application under assessment, and the only Square-native compliance and inventory platform in the UK and Ireland. £4.42m Year 5 ARR trajectory supports a 5–10x exit range of £22–44m. This is not a concept — it is a working product in a validated market, raising at a fair price.</p>
+      <p className="section-sub">£3.5m pre-money. Above the British Business Bank 2024 pre-seed average of £3.2m. Anchored by a live product in production, real beta venues using it daily, a team that believed enough to take founder-level salaries, a TechStart NI application under assessment, and the only Square-native compliance and inventory platform in the UK and Ireland. £4.42m Year 5 ARR trajectory supports a 5–10x exit range of £22–44m. This is not a concept — it is a working product in a validated market, raising at a fair price.</p>
 
       <div style={{ marginTop: 40, marginBottom: 16 }}>
         {funds.map((f) => (
@@ -99,7 +99,7 @@ export default function Ask() {
         </p>
         <p style={{ fontSize: 14, lineHeight: 1.7, color: 'rgba(255,255,255,0.75)', marginBottom: 0 }}>
           The team accepted founder-level salaries so the runway goes further. The raise is lean by design. The returns are better for it.
-          <br />Square validated this market on 2 April 2026. Toast opened a Dublin office in December 2025. The only question is who builds the purpose-built UK and Irish answer. That is Blue Paper Labs.
+          <br />Square validated this market on 2 April 2026. Toast expanded its Dublin R&D presence in December 2025. The only question is who builds the purpose-built UK and Irish answer. That is Blue Paper Labs.
         </p>
       </div>
 

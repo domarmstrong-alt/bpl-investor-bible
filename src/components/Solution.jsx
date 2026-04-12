@@ -69,7 +69,7 @@ export default function Solution() {
 
       <div className="callout callout-amber" data-animate>
         <p style={{ fontSize: 15, lineHeight: 1.7, color: '#1B2A4A', fontWeight: 500 }}>
-          Blue Paper Labs delivers inventory, compliance, and workforce management for £100/month — with bookings, finance, and CRM arriving in Year 2 at a combined £50/month. Full suite: £150/month. Nory charges £295/venue for AI predictions operators don't trust. MarketMan via Square costs £148/month for inventory alone with no compliance. For £48/month less than MarketMan, operators get three products instead of one.
+          Blue Paper Labs delivers inventory, compliance, and workforce management for £100/month — with bookings, finance, and CRM arriving in Year 2 at a combined £50/month. Full suite: £150/month. Nory charges £299/venue for AI predictions operators don't trust. MarketMan via Square costs £148/month for inventory alone with no compliance. For £48/month less than MarketMan, operators get three products instead of one.
         </p>
       </div>
     </section>
