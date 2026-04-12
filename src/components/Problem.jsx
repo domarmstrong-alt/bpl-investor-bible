@@ -16,7 +16,7 @@ const cards = [
   {
     stat: '£1,700+/year',
     label: 'Spent on disconnected tools per venue',
-    body: 'A representative 5-employee single-site independent operator pays £336/yr (Leafe Basic), £1,000/yr (BrightHR Core HR, 5 employees at £16.67/employee/month), and £366/yr (NCASS Fixed Site, inc. VAT) — a combined £1,702/yr on disconnected tools that do not share data. At £150/month standard (£1,800/yr) or £100/month early adopter (£1,200/yr), the Blue Paper Labs suite replaces this entire stack with better integration and compliance features none of these tools offer.',
+    body: 'A representative 5-employee single-site independent operator pays £336/yr (Leafe Basic), £1,000/yr (BrightHR Core HR, 5 employees at £16.67/employee/month), and £366/yr (NCASS Fixed Site, inc. VAT) — a combined £1,702/yr on disconnected tools that do not share data. At £100/month standard (£1,200/yr) or £79/month early adopter (£948/yr), Blue Paper Labs replaces Leafe (inventory), NCASS (compliance), and BrightHR\'s rota functionality entirely — saving £502/yr at standard or £754/yr as an early adopter, with better integration and compliance features none of these tools offer individually. Operators retain employment law advisory from any provider at their discretion.',
     source: 'Source: Leafe pricing page · BrightHR pricing page · NCASS membership page — all verified April 2026',
     cite: 3,
   },

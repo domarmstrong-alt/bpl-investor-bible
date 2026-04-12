@@ -58,7 +58,7 @@ const markets = [
 const stats = [
   { number: '1,053,120', label: 'Combined six-market TAM (Britain + Ireland + US + Australia + Canada + New Zealand)' },
   { number: '62,347', label: 'Independent operators in Britain alone (SAM)' },
-  { number: '0.20%', label: 'Year 5 target of 2,150 venues as a percentage of combined TAM' },
+  { number: '0.25%', label: 'Year 5 target of 2,630 venues as a percentage of combined TAM' },
   { number: '~75%', label: 'Of Britain\u2019s licensed venues are independent operators without dedicated inventory management software (CGA/AlixPartners Hospitality Market Monitor, December 2024)' },
 ]
 

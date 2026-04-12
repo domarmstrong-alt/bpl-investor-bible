@@ -26,6 +26,11 @@ const team = [
     body: 'Experienced CPO and board member across consumer and B2B SaaS. Specialises in product-market fit. 5% equity — skin in the game, not a line on a deck. Completing current contract then joining full-time on brand and GTM.',
   },
   {
+    name: 'Mark Craig',
+    role: 'Commercial Consultant',
+    body: 'MSc Marketing, University of Ulster. Co-founded Hey Chick!, scaling from a pop-up to three Belfast venues, £1m+ turnover, and 30+ staff. Built Forged Irish Stout\'s social presence from zero to 150,000 Instagram followers with multi-million weekly organic views. Drove 400% distribution increase for Hinch Whiskey and 25% YOY sales growth for Coole Swan in Northern Ireland. All-island commercial relationships across Musgrave, Drinks Inc, Tesco NI, and independent off-trade. Brings brand-building, distribution activation, and hospitality operator credibility to the commercial team.',
+  },
+  {
     name: 'Kyle Eades',
     role: 'Cybersecurity Specialist',
     body: 'Building Blue Paper Labs\' security and compliance architecture from day one. Responsible for pre-launch penetration testing, repository security, and Supabase infrastructure hardening. Brings professional cybersecurity expertise to a product handling sensitive operational and financial data for hospitality businesses.',
@@ -59,10 +64,6 @@ export default function Traction() {
           Why now? Because venues are dying. I've sat in front of a P&L and asked how to extract even the smallest bit of revenue from a failing business. Sometimes the answer isn't make more money. Sometimes it's stop losing it. Blue Paper Labs is that answer.
         </p>
       </blockquote>
-      <p style={styles.domInsert} data-animate>
-        <strong>[Dom to insert: X venues, £Y/month, Z months, zero churn.]</strong>
-      </p>
-
       <div style={styles.pillRow} data-animate>
         {tractionItems.map((item) => (
           <span key={item} style={styles.pill}>{item}</span>

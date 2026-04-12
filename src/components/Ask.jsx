@@ -14,7 +14,7 @@ export default function Ask() {
     <section id="ask" className="section" data-animate>
       <span className="section-number">07</span>
       <h2>£400,000 for 10.26% post-money equity.</h2>
-      <p className="section-sub">£3.5m pre-money. Above the British Business Bank 2024 pre-seed average of £3.2m. Within the Equidam European pre-seed median of £4–4.5m. Anchored by a live product in production, real beta venues using it daily, a team that believed enough to take founder-level salaries, a TechStart NI application under assessment, and the only Square-native compliance and inventory platform in the UK and Ireland. £3.74m Year 5 ARR trajectory supports a 5–10× exit range of £19–37m. This is not a concept — it is a working product in a validated market, raising at a fair price.</p>
+      <p className="section-sub">£3.5m pre-money. Above the British Business Bank 2024 pre-seed average of £3.2m. Within the Equidam European pre-seed median of £4–4.5m. Anchored by a live product in production, real beta venues using it daily, a team that believed enough to take founder-level salaries, a TechStart NI application under assessment, and the only Square-native compliance and inventory platform in the UK and Ireland. £4.42m Year 5 ARR trajectory supports a 5–10x exit range of £22–44m. This is not a concept — it is a working product in a validated market, raising at a fair price.</p>
 
       <div style={{ marginTop: 40, marginBottom: 16 }}>
         {funds.map((f) => (
@@ -36,13 +36,13 @@ export default function Ask() {
 
       <div className="callout" style={{ marginBottom: 24 }} data-animate>
         <p style={{ fontSize: 13, lineHeight: 1.7, color: '#1B2A4A' }}>
-          <strong>Base case:</strong> £400k for 10.26% post-money equity at £3.5m pre-money. At a conservative 5× ARR exit on £3.74m Year 5 ARR: exit value £18.7m → investor return £1.919m → 4.80× / ~37% IRR over 5 years.
+          <strong>Base case:</strong> £400k for 10.26% post-money equity at £3.5m pre-money. At a conservative 5x ARR exit on £4.42m Year 5 ARR: exit value £22.1m, investor return £2.27m, 5.67x / ~41% IRR over 5 years.
         </p>
         <p style={{ fontSize: 13, lineHeight: 1.7, color: '#1B2A4A', marginTop: 8 }}>
-          <strong>Upside case:</strong> At a 10× ARR exit: exit value £37.4m → investor return £3.837m → 9.59× / ~57% IRR over 5 years.
+          <strong>Upside case:</strong> At a 10x ARR exit: exit value £44.2m, investor return £4.54m, 11.34x / ~63% IRR over 5 years.
         </p>
         <p style={{ fontSize: 12, lineHeight: 1.7, color: '#999', marginTop: 8 }}>
-          UK angel target IRR: 30%+. Base case at ~37% IRR clears the threshold. Upside case at ~57% IRR is comfortably within top-quartile angel returns. Ireland alone at 5% penetration adds ~£1.54m ARR — materially de-risking the downside. Returns illustrated on a no-dilution basis; future rounds may dilute equity.
+          UK angel target IRR: 30%+. Base case at ~41% IRR clears the threshold. Upside case at ~63% IRR is comfortably within top-quartile angel returns. Ireland alone at 5% penetration adds ~£1.54m ARR — materially de-risking the downside. Returns illustrated on a no-dilution basis; future rounds may dilute equity.
         </p>
       </div>
 
@@ -61,9 +61,9 @@ export default function Ask() {
             </thead>
             <tbody>
               {[
-                { scenario: 'Downside', prob: '25%', mult: '3× ARR', exit: '£11.22m', ret: '£1.151m', moic: '2.88×' },
-                { scenario: 'Base case', prob: '55%', mult: '5× ARR', exit: '£18.7m', ret: '£1.919m', moic: '4.80×' },
-                { scenario: 'Upside', prob: '20%', mult: '10× ARR', exit: '£37.4m', ret: '£3.837m', moic: '9.59×' },
+                { scenario: 'Downside', prob: '25%', mult: '3x ARR', exit: '£13.26m', ret: '£1.36m', moic: '3.40x' },
+                { scenario: 'Base case', prob: '55%', mult: '5x ARR', exit: '£22.1m', ret: '£2.27m', moic: '5.67x' },
+                { scenario: 'Upside', prob: '20%', mult: '10x ARR', exit: '£44.2m', ret: '£4.54m', moic: '11.34x' },
               ].map((r, i) => (
                 <tr key={r.scenario} style={{ background: i % 2 === 0 ? '#FAFAFA' : '#fff' }}>
                   <td style={{ padding: '10px 14px', borderBottom: '1px solid #eee', fontWeight: 600 }}>{r.scenario}</td>
@@ -76,26 +76,26 @@ export default function Ask() {
               ))}
               <tr style={{ background: 'rgba(168,213,226,0.08)', fontWeight: 700 }}>
                 <td colSpan="4" style={{ padding: '10px 14px', borderBottom: '1px solid #eee' }}>Probability-weighted</td>
-                <td style={{ padding: '10px 14px', borderBottom: '1px solid #eee' }}>£2.10m</td>
-                <td style={{ padding: '10px 14px', borderBottom: '1px solid #eee' }}>5.24×</td>
+                <td style={{ padding: '10px 14px', borderBottom: '1px solid #eee' }}>£2.50m</td>
+                <td style={{ padding: '10px 14px', borderBottom: '1px solid #eee' }}>6.24x</td>
               </tr>
             </tbody>
           </table>
         </div>
         <p style={{ fontSize: 12, color: '#999', fontStyle: 'italic', lineHeight: 1.6 }}>
-          Probability-weighted expected return: 5.24× / ~39% IRR. Downside scenario assumes 3× ARR exit on £3.74m Year 5 ARR. Returns on no-dilution basis.
+          Probability-weighted expected return: 6.24x / ~44% IRR. Downside scenario assumes 3x ARR exit on £4.42m Year 5 ARR. Returns on no-dilution basis.
         </p>
       </div>
 
       <div style={styles.returnsBox} data-animate>
         <p style={{ fontSize: 15, lineHeight: 1.8, color: 'rgba(255,255,255,0.9)', marginBottom: 16 }}>
-          £400,000 buys 10.26% of a company with a live product, real customers across two markets, a validated problem, and a team that has already taken personal financial risk to get here.
+          £400,000 buys 10.26% of a company with a live product, real customers, a validated problem, and a team that has already taken personal financial risk to get here.
         </p>
         <p style={{ fontSize: 14, lineHeight: 1.7, color: 'rgba(255,255,255,0.75)', marginBottom: 8 }}>
-          <span style={{ color: '#A8D5E2', fontWeight: 600 }}>Base case:</span> 4.80× / ~37% IRR at a conservative 5× ARR exit.
+          <span style={{ color: '#A8D5E2', fontWeight: 600 }}>Base case:</span> 5.67x / ~41% IRR at a conservative 5x ARR exit.
         </p>
         <p style={{ fontSize: 14, lineHeight: 1.7, color: 'rgba(255,255,255,0.75)', marginBottom: 16 }}>
-          <span style={{ color: '#D4A574', fontWeight: 600 }}>Upside:</span> 9.59× / ~57% IRR at a 10× ARR exit.
+          <span style={{ color: '#D4A574', fontWeight: 600 }}>Upside:</span> 11.34x / ~63% IRR at a 10x ARR exit.
         </p>
         <p style={{ fontSize: 14, lineHeight: 1.7, color: 'rgba(255,255,255,0.75)', marginBottom: 0 }}>
           The team accepted founder-level salaries so the runway goes further. The raise is lean by design. The returns are better for it.
