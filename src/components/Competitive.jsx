@@ -57,7 +57,7 @@ export default function Competitive() {
           MarketMan: 2.4★ on Trustpilot ('Poor')
         </h3>
         <p style={{ fontSize: 14, lineHeight: 1.7, color: 'rgba(255,255,255,0.85)' }}>
-          Reviewed complaints include billing after cancellation, dark-pattern cancellation flows, hidden charges, and zero replies to negative reviews. Cross-platform scores reveal a deliberate bias — G2: 4.3★, Capterra: 4.7★, Google Play: 3.2★ (175 reviews). Their UK dominance rests on brand recognition alone, not product quality.
+          Reviewed complaints include billing after cancellation, dark-pattern cancellation flows, hidden charges, and zero replies to negative reviews. Cross-platform scores reveal a deliberate bias — G2: 4.3★, Capterra: 4.7★, Google Play: 3.2★ (186 reviews). Their UK dominance rests on brand recognition alone, not product quality.
         </p>
         <div className="source-line" style={{ color: 'rgba(255,255,255,0.5)' }}>
           Source: Trustpilot, G2, Capterra — March 2026

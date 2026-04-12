@@ -3,7 +3,7 @@ const markets = [
     flag: '\u{1F1EC}\u{1F1E7}',
     country: 'Britain',
     subtitle: '99,120 licensed venues (England, Scotland & Wales)',
-    body: 'TAM: £118m ARR at full penetration · SAM: 62,347 independent operators',
+    body: 'TAM: £119m ARR at full penetration · SAM: 62,347 independent operators',
     timeline: 'Active from Day 1',
     color: 'pill-green',
     footnote: 'CGA by NIQ & AlixPartners Hospitality Market Monitor, December 2024. Northern Ireland excluded from CGA Outlet Index.',
