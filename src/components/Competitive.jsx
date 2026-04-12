@@ -48,7 +48,7 @@ export default function Competitive() {
 
       <div className="source-line" style={{ marginTop: 8, marginBottom: 32 }}>
         Sources: Company websites, March 2026. All prices in £ GBP. USD/EUR converted at Wise mid-market rate 13 March 2026.
-        <br />MarketMan via Square (UK): £69/mo Square Plus + £79/mo add-on = £148/mo total. £79/month applies to sellers new to MarketMan (Square UK, April 2026). 2.4★ Trustpilot (Poor) · Zero replies to negative reviews · Billing complaints active as of April 2026.
+        <br />MarketMan via Square (UK): £69/mo Square Plus + £79/mo add-on = £148/mo total. 2.4★ Trustpilot (Poor) · Zero replies to negative reviews · Billing complaints active as of April 2026.
       </div>
 
       {/* MarketMan callout */}

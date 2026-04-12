@@ -42,7 +42,7 @@ export default function Ask() {
           <strong>Upside case:</strong> At a 10x ARR exit: exit value £44.2m, investor return £4.54m, 11.34x / ~63% IRR over 5 years.
         </p>
         <p style={{ fontSize: 12, lineHeight: 1.7, color: '#999', marginTop: 8 }}>
-          UK angel target IRR: 30%+. Base case at ~41% IRR clears the threshold. Upside case at ~63% IRR is comfortably within top-quartile angel returns. Ireland alone at 5% penetration adds ~£1.54m ARR — materially de-risking the downside. Returns illustrated on a no-dilution basis; future rounds may dilute equity.
+          UK angel target IRR: 30%+. Base case at ~41% IRR clears the threshold. Upside case at ~63% IRR is comfortably within top-quartile angel returns. Ireland alone at 5% penetration adds over £1.5m ARR (at standard entry pricing) — materially de-risking the downside. Returns illustrated on a no-dilution basis; future rounds may dilute equity.
         </p>
       </div>
 
