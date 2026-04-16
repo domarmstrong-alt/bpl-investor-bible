@@ -55,13 +55,19 @@ export default function Traction() {
 
       <blockquote style={styles.founderNote} data-animate>
         <p style={{ marginBottom: 16 }}>
-          Why me? Because I was the operator sitting in front of Google searching for inventory software with six barely surviving venues. I knew I needed to do better. I just couldn't find anything that didn't give me a headache before I'd even signed up — the same stock images, the same arbitrary statistics, the same corporate doublespeak on every site. And when I finally got to the pricing page I lost my lunch.
+          Why me? Because I was the operator. Six venues, all barely breathing. Sat in front of Google at some unreasonable hour looking for inventory software or business intelligence or whatever the buzzword of the year was. Every site the same. The same stock photos of smiling chefs who've clearly never worked a Saturday service. The same made-up statistics. The same corporate doublespeak that appeals to investors, written by people who've never stood behind a bar in their life. And when I'd get to the pricing page and see yet another “Please contact us for our best price,” I’d close the page and the search continued.
         </p>
         <p style={{ marginBottom: 16 }}>
-          I wanted something an actual operator would look at and say 'yes, I see why they'd add that.' So I built it.
+          I wanted something that looked like it was built by someone who'd actually done the job. Something an operator could open and think, yeah, they get it. I couldn't find it. So I built it.
+        </p>
+        <p style={{ marginBottom: 16 }}>
+          Why now? Because venues are dying. Real ones. The ones with character. The ones that made a street feel like somewhere instead of anywhere. I've sat in front of a P&L at midnight trying to work out how to squeeze a few hundred quid out of a business that was already running on fumes. Sometimes the answer isn't make more money. Sometimes it's stop losing it. And most operators don't even know where it's leaking from, because nobody ever gave them the tools to see.
+        </p>
+        <p style={{ marginBottom: 16 }}>
+          Blue Paper Labs isn’t here to save anyone's business. Nothing can, on its own. But it can give you a fighting chance. It can put the numbers in front of you so you can make the call with your eyes open. It can be the thing that's there at 11pm on a Sunday when you're working out whether to pay the VAT or the suppliers, and whether there's anything left for the milkman on Tuesday.
         </p>
         <p>
-          Why now? Because venues are dying. I've sat in front of a P&L and asked how to extract even the smallest bit of revenue from a failing business. Sometimes the answer isn't make more money. Sometimes it's stop losing it. Blue Paper Labs is that answer.
+          That's it. That's the whole thing. Blue Paper Labs is for the people everyone else stopped seeing. And if a few more of them are still open this time next year, that's enough.
         </p>
       </blockquote>
       <div style={styles.pillRow} data-animate>
