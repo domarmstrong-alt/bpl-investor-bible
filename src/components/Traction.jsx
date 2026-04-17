@@ -67,7 +67,7 @@ export default function Traction() {
           Blue Paper Labs isn’t here to save anyone's business. Nothing can, on its own. But it can give you a fighting chance. It can put the numbers in front of you so you can make the call with your eyes open. It can be the thing that's there at 11pm on a Sunday when you're working out whether to pay the VAT or the suppliers, and whether there's anything left for the milkman on Tuesday.
         </p>
         <p style={{ marginBottom: 16 }}>
-          That's it. That's the whole thing. We're not claiming to be better than anyone, we just hope we're better suited for you.
+          That's it. That's the whole thing. We're not building something that's better, we're building something that's better suited.
         </p>
         <p>
           Built in evenings. Live in production. First customers using it daily.
