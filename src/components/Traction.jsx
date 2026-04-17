@@ -51,7 +51,7 @@ export default function Traction() {
   return (
     <section id="traction" className="section" data-animate>
       <span className="section-number">05</span>
-      <h2>Built in evenings. Live in production. First customers using it daily.</h2>
+      <h2>Built for the people everyone else has forgotten.</h2>
 
       <blockquote style={styles.founderNote} data-animate>
         <p style={{ marginBottom: 16 }}>
