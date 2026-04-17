@@ -66,8 +66,11 @@ export default function Traction() {
         <p style={{ marginBottom: 16 }}>
           Blue Paper Labs isn’t here to save anyone's business. Nothing can, on its own. But it can give you a fighting chance. It can put the numbers in front of you so you can make the call with your eyes open. It can be the thing that's there at 11pm on a Sunday when you're working out whether to pay the VAT or the suppliers, and whether there's anything left for the milkman on Tuesday.
         </p>
+        <p style={{ marginBottom: 16 }}>
+          That's it. That's the whole thing. And if a few more of them are still open this time next year, that's enough.
+        </p>
         <p>
-          That's it. That's the whole thing. Blue Paper Labs is for the people everyone else stopped seeing. And if a few more of them are still open this time next year, that's enough.
+          Built in evenings. Live in production. First customers using it daily.
         </p>
       </blockquote>
       <div style={styles.pillRow} data-animate>
