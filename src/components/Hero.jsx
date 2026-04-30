@@ -2,6 +2,7 @@ export default function Hero() {
   return (
     <section id="hero" style={styles.hero} data-animate>
       <div style={styles.inner}>
+        <div style={styles.eyebrow}>Paper Docket &middot; Operations Suite</div>
         <span style={styles.badge}>Investment Case &middot; Confidential &middot; 2026</span>
 
         <h1 style={styles.heading}>
@@ -9,8 +10,8 @@ export default function Hero() {
         </h1>
 
         <p style={styles.sub}>
-          Blue Paper Labs builds AI-powered operations software for independent
-          hospitality operators — affordable, transparent, and understandable.
+          Blue Paper Labs builds Paper Docket — AI-powered operations software for
+          independent hospitality operators. Affordable, transparent, and understandable.
         </p>
 
         <div style={styles.pills}>
@@ -60,6 +61,15 @@ const styles = {
   inner: {
     maxWidth: 1100,
     margin: '0 auto',
+  },
+  eyebrow: {
+    fontFamily: "'Inter', sans-serif",
+    fontSize: 12,
+    fontWeight: 600,
+    color: '#7BBDD0',
+    textTransform: 'uppercase',
+    letterSpacing: '0.18em',
+    marginBottom: 14,
   },
   badge: {
     display: 'inline-block',

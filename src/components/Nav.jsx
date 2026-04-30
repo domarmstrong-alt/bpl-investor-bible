@@ -94,7 +94,7 @@ export default function Nav() {
 const styles = {
   nav: {
     position: 'sticky',
-    top: 0,
+    top: 40,
     zIndex: 100,
     background: '#1B2A4A',
   },
@@ -148,7 +148,7 @@ const styles = {
   overlay: {
     position: 'fixed',
     inset: 0,
-    top: 60,
+    top: 100,
     background: '#1B2A4A',
     display: 'flex',
     flexDirection: 'column',

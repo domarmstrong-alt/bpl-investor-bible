@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import DraftBanner from './components/DraftBanner'
 import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Problem from './components/Problem'
@@ -32,6 +33,7 @@ export default function App() {
 
   return (
     <>
+      <DraftBanner />
       <Nav />
       <Hero />
       <Problem />
