@@ -1,9 +1,9 @@
 const funds = [
-  { label: 'Head of Sales — 12 months (base + uncapped commission)', amount: '£50,000', pct: 12.5 },
-  { label: 'Frontend Developer — 12 months', amount: '£40,000', pct: 10 },
-  { label: 'Founder salary — 12 months', amount: '£35,000', pct: 8.75 },
-  { label: 'Data Scientist — 12 months', amount: '£32,000', pct: 8 },
-  { label: 'Cybersecurity Specialist — 12 months', amount: '£32,000', pct: 8 },
+  { label: 'Head of Sales, 12 months (base + uncapped commission)', amount: '£50,000', pct: 12.5 },
+  { label: 'Frontend Developer, 12 months', amount: '£40,000', pct: 10 },
+  { label: 'Founder salary, 12 months', amount: '£35,000', pct: 8.75 },
+  { label: 'Data Scientist, 12 months', amount: '£32,000', pct: 8 },
+  { label: 'Cybersecurity Specialist, 12 months', amount: '£32,000', pct: 8 },
   { label: 'Marketing, PR & events', amount: '£70,000', pct: 17.5 },
   { label: 'Auditor build + legal + security pen test', amount: '£60,000', pct: 15 },
   { label: 'Runway buffer', amount: '£81,000', pct: 20.25 },
@@ -31,7 +31,7 @@ export default function Ask() {
       </div>
 
       <p style={{ fontSize: 12, color: '#999', fontStyle: 'italic', marginBottom: 40 }}>
-        The team has agreed to founder-level salaries to extend runway, reach profitability faster, and maximise investor returns. Every pound raised goes further in Belfast than anywhere else in the UK. Head of Sales compensation includes uncapped commission — aligned incentives from day one.
+        The team has agreed to founder-level salaries to extend runway, reach profitability faster, and maximise investor returns. Every pound raised goes further in Belfast than anywhere else in the UK. Head of Sales compensation includes uncapped commission, aligned incentives from day one.
       </p>
 
       <div className="callout" style={{ marginBottom: 24 }} data-animate>
@@ -104,7 +104,7 @@ export default function Ask() {
       </div>
 
       <blockquote style={styles.quote} data-animate>
-        "Every week without a sales team is a week a competitor is having conversations we're not in. £400,000 fixes that — with £81,000 left in reserve."
+        "Every week without a sales team is a week a competitor is having conversations we're not in. £400,000 fixes that, with £81,000 left in reserve."
       </blockquote>
     </section>
   )

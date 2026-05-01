@@ -14,7 +14,7 @@ export default function Competitive() {
   return (
     <section id="competition" className="section" data-animate>
       <span className="section-number">04</span>
-      <h2>Where we win — and where others disappoint.</h2>
+      <h2>Where we win, and where others disappoint.</h2>
 
       <div style={styles.tableWrap} data-animate>
         <table style={styles.table}>
@@ -57,17 +57,17 @@ export default function Competitive() {
           MarketMan: 2.4★ on Trustpilot ('Poor')
         </h3>
         <p style={{ fontSize: 14, lineHeight: 1.7, color: 'rgba(255,255,255,0.85)' }}>
-          Reviewed complaints include billing after cancellation, dark-pattern cancellation flows, hidden charges, and zero replies to negative reviews. Cross-platform scores reveal a deliberate bias — G2: 4.3★, Capterra: 4.7★, Google Play: 3.2★ (186 reviews). Their UK dominance rests on brand recognition alone, not product quality.
+          Reviewed complaints include billing after cancellation, dark-pattern cancellation flows, hidden charges, and zero replies to negative reviews. Cross-platform scores reveal a deliberate bias, G2: 4.3★, Capterra: 4.7★, Google Play: 3.2★ (186 reviews). Their UK dominance rests on brand recognition alone, not product quality.
         </p>
         <div className="source-line" style={{ color: 'rgba(255,255,255,0.5)' }}>
-          Source: Trustpilot, G2, Capterra — March 2026
+          Source: Trustpilot, G2, Capterra, March 2026
         </div>
       </div>
 
       {/* Square competitive accelerant */}
       <div className="callout" data-animate>
         <h3 style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: 18, marginBottom: 8, color: '#1B2A4A' }}>
-          Square just validated this market — and handed us the advantage
+          Square just validated this market, and handed us the advantage
         </h3>
         <p style={{ fontSize: 14, lineHeight: 1.7, color: '#1B2A4A' }}>
           On 2 April 2026, Square launched 'Square Restaurant Inventory by MarketMan' globally including the UK and Ireland, confirming the market opportunity. The total cost for an operator: £69/month (Square for Restaurants Plus) + £79/month (MarketMan add-on) = £148/month per location. For £48/month less than the MarketMan bundle, operators get inventory, compliance, and workforce management, the Blue Paper Labs base bundle at £100/month, with compliance features MarketMan does not offer, across Square, Lightspeed, and Toast. Aoife&trade; Premium adds cross-app AI reasoning at +£30/month. Receptionist arrives in Year 2 at +£20/month. Clerk lands in Year 2 to Year 3 at +£10/month. Even at full attach, a Paper Docket stack delivers more product depth than MarketMan inventory alone. MarketMan has also integrated with Lightspeed and Toast for years, but at £148/month for Square users alone, and with a 2.4 star Trustpilot rating, UK and Irish operators deserve a purpose-built answer. Toast's December 2025 Dublin R&D expansion confirms the Irish market is validated and moving. Blue Paper Labs' compliance-first positioning differentiates it from Toast's enterprise-oriented stack.

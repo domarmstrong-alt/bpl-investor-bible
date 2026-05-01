@@ -1,12 +1,12 @@
 const tractionItems = [
-  '✓ Production-ready product built solo in under 4 weeks — including Square OAuth integration, AI-powered variance reporting, and full row-level security for multi-tenant data isolation',
-  '✓ Square OAuth live in production — UK and Ireland distribution channel ready',
+  '✓ Production-ready product built solo in under 4 weeks, including Square OAuth integration, AI-powered variance reporting, and full row-level security for multi-tenant data isolation',
+  '✓ Square OAuth live in production, UK and Ireland distribution channel ready',
   '✓ Beta venue active and using daily',
-  '✓ Lightspeed integration in build — Year 1 target',
-  '✓ Toast partnership application submitted — Year 1–2 target',
-  '✓ AI features built on Anthropic Claude API — real inference calls against live venue data, not pre-written scripts or cached answers',
-  '✓ TechStart NI Concept Plus — application submitted April 2026',
-  '✓ InterTradeIreland Seedcorn 2026 — entered (B2B category, Northern Ireland region)',
+  '✓ Lightspeed integration in build, Year 1 target',
+  '✓ Toast partnership application submitted, Year 1–2 target',
+  '✓ AI features built on Anthropic Claude API, real inference calls against live venue data, not pre-written scripts or cached answers',
+  '✓ TechStart NI Concept Plus, application submitted April 2026',
+  '✓ InterTradeIreland Seedcorn 2026, entered (B2B category, Northern Ireland region)',
 ]
 
 export default function Traction() {
@@ -44,17 +44,17 @@ export default function Traction() {
       <h2 style={{ marginTop: 48, marginBottom: 16 }}>The Belfast Advantage</h2>
       <div className="callout" data-animate>
         <p style={{ fontSize: 15, lineHeight: 1.7, color: '#1B2A4A' }}>
-          Blue Paper Labs is headquartered in Belfast, Northern Ireland — the UK's top location for US R&D investment (Financial Times fDi Markets, 2025). Northern Ireland's tech ecosystem includes Cloudsmith ($23m Series B, March 2025) and 1,500+ Invest NI client companies generating £29 billion in annual sales. Tech salaries in Belfast are materially below London equivalents, extending runway on every hire. The Windsor Framework gives NI-headquartered businesses unique dual market access to both the UK internal market and the EU single market — a structural advantage no other UK region can claim. As a Belfast company, the Republic of Ireland is not an international expansion. It is our second home market.
+          Blue Paper Labs is headquartered in Belfast, Northern Ireland, the UK's top location for US R&D investment (Financial Times fDi Markets, 2025). Northern Ireland's tech ecosystem includes Cloudsmith ($23m Series B, March 2025) and 1,500+ Invest NI client companies generating £29 billion in annual sales. Tech salaries in Belfast are materially below London equivalents, extending runway on every hire. The Windsor Framework gives NI-headquartered businesses unique dual market access to both the UK internal market and the EU single market, a structural advantage no other UK region can claim. As a Belfast company, the Republic of Ireland is not an international expansion. It is our second home market.
         </p>
         <div className="source-line">
           Source: Invest NI Annual Report 2024–25 · FT fDi Markets 2025 · UKTN: Cloudsmith · InterTradeIreland Cross-Border Trade Hub · Invest NI dual market access
         </div>
       </div>
 
-      <h2 style={{ marginTop: 48, marginBottom: 16 }}>Ireland — Ready from Month 6</h2>
+      <h2 style={{ marginTop: 48, marginBottom: 16 }}>Ireland, ready from Month 6</h2>
       <div className="callout" data-animate>
         <p style={{ fontSize: 15, lineHeight: 1.7, color: '#1B2A4A' }}>
-          Ireland entry requires no product changes, no new POS partnerships, and no regulatory re-registration. Square has been operational in Ireland since 2021. Our HACCP and allergen compliance features meet Irish law (EU Regulation 852/2004 and EU FIR 1169/2011) from day one — Ireland's allergen standards are in fact more demanding than current UK requirements, and our product exceeds both. Two preparation steps — Irish VAT registration and appointment of an EU GDPR representative (~£300–500/year) — will be completed in Months 3–4, ahead of first Irish customer acquisition. The FSAI is currently consulting on introducing a Food Hygiene Rating Scheme equivalent to the UK system already driving adoption there — a near-term compliance catalyst specific to Ireland. As the founder holds Irish citizenship, Enterprise Ireland programmes including New Frontiers become accessible upon establishing an Irish entity.
+          Ireland entry requires no product changes, no new POS partnerships, and no regulatory re-registration. Square has been operational in Ireland since 2021. Our HACCP and allergen compliance features meet Irish law (EU Regulation 852/2004 and EU FIR 1169/2011) from day one, and Ireland's allergen standards are in fact more demanding than current UK requirements, with our product exceeding both. Two preparation steps, Irish VAT registration and appointment of an EU GDPR representative (~£300–500/year), will be completed in Months 3–4, ahead of first Irish customer acquisition. The FSAI is currently consulting on introducing a Food Hygiene Rating Scheme equivalent to the UK system already driving adoption there, a near-term compliance catalyst specific to Ireland. As the founder holds Irish citizenship, Enterprise Ireland programmes including New Frontiers become accessible upon establishing an Irish entity.
         </p>
         <div className="source-line">
           Source: FSAI HACCP guidance · FSAI Allergen Guidance Note 28 · EU Regulation 852/2004 · EU FIR 1169/2011 · Square Ireland squareup.com/ie · Invest NI dual market access · InterTradeIreland

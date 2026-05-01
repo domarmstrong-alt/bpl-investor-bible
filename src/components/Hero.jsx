@@ -10,7 +10,7 @@ export default function Hero() {
         </h1>
 
         <p style={styles.sub}>
-          Blue Paper Labs builds Paper Docket — AI-powered operations software for
+          Blue Paper Labs builds Paper Docket, AI-powered operations software for
           independent hospitality operators. Affordable, transparent, and understandable.
         </p>
 

@@ -2,7 +2,7 @@ const headlines = [
   { number: '£7.9m', label: 'Year 5 ARR (central case · £7.5m–£8.0m band, upside to £8.5m)' },
   { number: '£3.4m', label: 'Year 5 net profit' },
   { number: '£9.4m', label: '5-year cumulative revenue' },
-  { number: '85–95%+', label: 'Gross margin (subscription revenue only; no professional services. Stripe ~2.2%, infrastructure ~1.5%, AI ~0.5% at current scale. Currently ~95%; expected to normalise toward 85–90% at scale.)' },
+  { number: '85–95%', label: 'Gross margin (subscription revenue only, no professional services. Stripe ~2.2%, infrastructure ~1.5%, AI ~0.5% at current scale. Currently ~95%, expected to normalise toward 85–90% at scale.)' },
   { number: '£40–79m', label: 'Implied exit at 5×–10× ARR (Global private SaaS long-term median 4.5×, top quartile above 8.1× (Aventis Advisors, March 2026))' },
 ]
 

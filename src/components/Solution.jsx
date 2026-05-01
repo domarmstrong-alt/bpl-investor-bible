@@ -10,8 +10,8 @@ const products = [
   },
   {
     name: 'Auditor',
-    status: 'Live',
-    statusColor: 'pill-green',
+    status: 'In production',
+    statusColor: 'pill-amber',
     url: 'auditor.paperdocket.app',
     href: 'https://auditor.paperdocket.app',
     desc: 'Digital compliance records. HACCP plan builder. Temperature logs with corrective action prompts. EHO-ready PDF exports. Allergen matrix auto-generated from Quartermaster recipe data.',

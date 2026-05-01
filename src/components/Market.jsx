@@ -12,7 +12,7 @@ const markets = [
     flag: '\u{1F1EE}\u{1F1EA}',
     country: 'Republic of Ireland',
     subtitle: '~26,000 licensed hospitality venues',
-    body: 'Not an international expansion \u2014 our second home market. Under the Windsor Framework and Invest NI\u2019s dual market access framework, NI companies operate naturally across the island. Square has been operational in Ireland since 2021, authorised by the Central Bank of Ireland, with restaurant hardware launched October 2025. Our Square-first distribution channel requires zero reconfiguration.',
+    body: 'Not an international expansion, our second home market. Under the Windsor Framework and Invest NI\u2019s dual market access framework, NI companies operate naturally across the island. Square has been operational in Ireland since 2021, authorised by the Central Bank of Ireland, with restaurant hardware launched October 2025. Our Square-first distribution channel requires zero reconfiguration.',
     timeline: 'Active from Month 6',
     color: 'pill-green',
     footnote: 'Venue estimate: IBISWorld Ireland 2025 · VFI licence data 2023 · Bord Bia Foodservice Market Insights 2024. No single national register equivalent to CGA exists for Ireland.',
@@ -48,7 +48,7 @@ const markets = [
     flag: '\u{1F1F3}\u{1F1FF}',
     country: 'New Zealand',
     subtitle: '~18,000 food and beverage venues',
-    body: 'English-speaking Pacific market. HACCP-equivalent Food Control Plan mandatory under Food Act 2014. Digital records explicitly accepted by MPI. Lightspeed-first GTM \u2014 Square does not currently operate in New Zealand.',
+    body: 'English-speaking Pacific market. HACCP-equivalent Food Control Plan mandatory under Food Act 2014. Digital records explicitly accepted by MPI. Lightspeed-first GTM, Square does not currently operate in New Zealand.',
     timeline: 'Active from Year 3',
     color: 'pill-grey',
     footnote: 'Stats NZ / Statista FY2024. GTM route: Lightspeed-native integration. Square GTM not applicable.',
@@ -83,7 +83,7 @@ export default function Market() {
 
       <div className="callout-navy" style={styles.calloutNav} data-animate>
         <p style={{ fontSize: 15, lineHeight: 1.7 }}>
-          English-language scaling means the same product, same onboarding, same pitch deck works across all six markets. No localisation sprint. No translation cost. The founder built and operated in English hospitality — the product intuition transfers directly.
+          English-language scaling means the same product, same onboarding, same pitch deck works across all six markets. No localisation sprint. No translation cost. The founder built and operated in English hospitality, the product intuition transfers directly.
         </p>
       </div>
 
