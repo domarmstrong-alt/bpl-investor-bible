@@ -119,7 +119,7 @@ export default function Solution() {
 
       <div className="callout callout-amber" data-animate>
         <p style={{ fontSize: 15, lineHeight: 1.7, color: '#1B2A4A', fontWeight: 500 }}>
-          Paper Docket delivers inventory, compliance, and workforce management for £100/month base. Aoife&trade; Premium adds cross-app AI reasoning at +£30/month. Receptionist arrives in Year 2 at +£20/month, Clerk lands in Year 2 to Year 3 at +£10/month once the senior technical hire is in. Nory charges £299/venue for AI predictions operators don't trust. MarketMan via Square costs £148/month for inventory alone with no compliance. Even at a fully loaded Paper Docket stack, operators get three products plus reasoning AI for less than MarketMan inventory alone.
+          For £48/month less than the Square/MarketMan bundle, operators get the Blue Paper Labs base bundle at £100/month: inventory, compliance, and workforce tooling as Secretary comes online. With Aoife&trade; Premium, the stack is £130/month, still below MarketMan inventory alone via Square, while adding compliance and reasoning AI. Nory charges £299/venue for AI-led forecasting positioned for larger restaurant groups. Receptionist arrives in Year 2 at +£20/month, Clerk lands in Year 2 to Year 3 at +£10/month once the senior technical hire is in.
         </p>
       </div>
 
@@ -135,7 +135,7 @@ export default function Solution() {
         </p>
         <p style={styles.aoifeBody}>
           The 20,000-token system prompt and 600 to 700 corpus strings of operator reasoning are the IP.
-          <strong style={{ color: '#A8D5E2', fontWeight: 600 }}> Models are interchangeable, the prompt is the moat.</strong>
+          <strong style={{ color: '#A8D5E2', fontWeight: 600 }}> The prompt, operating corpus, workflow integrations, and proprietary venue data compound into the moat.</strong>
         </p>
         <p style={styles.aoifeBody}>
           <strong style={{ color: '#D4A574', fontWeight: 600 }}>Aoife&trade; Premium is the single largest revenue swing factor in the model.</strong> The +£30/mo cross-app reasoning add-on is assumed to attach at 50% of paying venues. Each 10-point shift in attach rate moves Y5 ARR by roughly £160k.

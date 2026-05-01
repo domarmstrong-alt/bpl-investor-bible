@@ -32,7 +32,7 @@ export default function Traction() {
           That's it. That's the whole thing. We're not building something that's better, we're building something that's better suited.
         </p>
         <p>
-          Built in evenings. Live in production. First customers using it daily.
+          Built in evenings. Live in production. First beta venue using it daily.
         </p>
       </blockquote>
       <div style={styles.pillRow} data-animate>

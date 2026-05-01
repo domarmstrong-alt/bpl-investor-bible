@@ -21,7 +21,7 @@ const markets = [
     flag: '\u{1F1FA}\u{1F1F8}',
     country: 'United States',
     subtitle: '720,000+ food service and drinking establishments',
-    body: 'Largest English-speaking market. Square-native distribution via US App Marketplace. Zero localisation cost.',
+    body: 'Largest English-speaking market. Square-native distribution via US App Marketplace. No language localisation and minimal product localisation.',
     timeline: 'Active from Month 18',
     color: 'pill-blue',
     footnote: 'US Bureau of Labor Statistics, NAICS 722, Q4 2024.',
@@ -58,7 +58,7 @@ const markets = [
 const stats = [
   { number: '1,053,120', label: 'Combined six-market TAM (Britain + Ireland + US + Australia + Canada + New Zealand)' },
   { number: '62,347', label: 'Independent operators in Britain alone (SAM)' },
-  { number: '0.25%', label: 'Year 5 target of 2,630 venues as a percentage of combined TAM' },
+  { number: '0.43%', label: '4,500 Year 5 target venues, equal to 0.43% of combined six-market TAM' },
   { number: '~63%', label: 'Of Britain\u2019s licensed venues are independent operators without dedicated inventory management software (CGA/AlixPartners Hospitality Market Monitor, December 2024)' },
 ]
 
@@ -66,7 +66,7 @@ export default function Market() {
   return (
     <section id="market" className="section" data-animate>
       <span className="section-number">03</span>
-      <h2>A £100m+ opportunity in the UK alone. Six markets in English. Zero localisation cost.</h2>
+      <h2>A £100m+ opportunity in the UK alone. Six markets in English. No language localisation and minimal product localisation.</h2>
 
       <div className="card-grid" style={{ marginTop: 40 }}>
         {markets.map((m) => (

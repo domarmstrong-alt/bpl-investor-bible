@@ -5,7 +5,7 @@ const funds = [
   { label: 'Data Scientist, 12 months', amount: '£32,000', pct: 8 },
   { label: 'Cybersecurity Specialist, 12 months', amount: '£32,000', pct: 8 },
   { label: 'Marketing, PR & events', amount: '£70,000', pct: 17.5 },
-  { label: 'Auditor build + legal + security pen test', amount: '£60,000', pct: 15 },
+  { label: 'Auditor hardening + legal + security pen test', amount: '£60,000', pct: 15 },
   { label: 'Runway buffer', amount: '£81,000', pct: 20.25 },
 ]
 
@@ -14,7 +14,7 @@ export default function Ask() {
     <section id="ask" className="section" data-animate>
       <span className="section-number">07</span>
       <h2>£400,000 for 10.26% post-money equity.</h2>
-      <p className="section-sub">£3.5m pre-money. Above the British Business Bank 2024 pre-seed average of £3.2m. Anchored by a live product in production, real beta venues using it daily, a team that believed enough to take founder-level salaries, a TechStart NI application under assessment, and the only Square-native compliance and inventory platform in the UK and Ireland. £7.9m Year 5 ARR trajectory supports a 5x to 10x exit range of £40m to £79m. This is not a concept, it is a working product in a validated market, raising at a fair price.</p>
+      <p className="section-sub">£3.5m pre-money. In line with reported UK pre-seed valuation benchmarks. Anchored by a live product in production, a beta venue using it daily, a team that believed enough to take founder-level salaries, a TechStart NI application under assessment, and the only Square-native compliance and inventory platform in the UK and Ireland. £7.9m Year 5 ARR trajectory supports a 5x to 10x exit range of £40m to £79m. This is not a concept, it is a working product in a validated market, raising at a fair price.</p>
 
       <div style={{ marginTop: 40, marginBottom: 16 }}>
         {funds.map((f) => (
@@ -89,7 +89,7 @@ export default function Ask() {
 
       <div style={styles.returnsBox} data-animate>
         <p style={{ fontSize: 15, lineHeight: 1.8, color: 'rgba(255,255,255,0.9)', marginBottom: 16 }}>
-          £400,000 buys 10.26% of a company with a live product, real customers, a validated problem, and a team that has already taken personal financial risk to get here.
+          £400,000 buys 10.26% of a company with a live product, a beta venue using it daily, a validated problem, and a team that has already taken personal financial risk to get here.
         </p>
         <p style={{ fontSize: 14, lineHeight: 1.7, color: 'rgba(255,255,255,0.75)', marginBottom: 8 }}>
           <span style={{ color: '#A8D5E2', fontWeight: 600 }}>Base case:</span> 10.1x / ~59% IRR at a conservative 5x ARR exit.
