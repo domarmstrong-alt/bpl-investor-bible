@@ -1,32 +1,32 @@
 const headlines = [
-  { number: '£4.42m', label: 'Year 5 ARR' },
-  { number: '£1.5m', label: 'Year 5 net profit' },
-  { number: '£8.21m', label: '5-year cumulative revenue' },
-  { number: '85\u201395%+', label: 'Gross margin (subscription revenue only; no professional services. Stripe ~2.2%, infrastructure ~1.5%, AI ~0.5% at current scale. Currently ~95%; expected to normalise toward 85\u201390% at scale.)' },
-  { number: '£22\u201344m', label: 'Implied exit at 5\u00D7\u201310\u00D7 ARR (Global private SaaS long-term median 4.5\u00D7, top quartile above 8.1\u00D7 (Aventis Advisors, March 2026))' },
+  { number: '£7.9m', label: 'Year 5 ARR (central case · £7.5m–£8.0m band, upside to £8.5m)' },
+  { number: '£3.4m', label: 'Year 5 net profit' },
+  { number: '£9.4m', label: '5-year cumulative revenue' },
+  { number: '85–95%+', label: 'Gross margin (subscription revenue only; no professional services. Stripe ~2.2%, infrastructure ~1.5%, AI ~0.5% at current scale. Currently ~95%; expected to normalise toward 85–90% at scale.)' },
+  { number: '£40–79m', label: 'Implied exit at 5×–10× ARR (Global private SaaS long-term median 4.5×, top quartile above 8.1× (Aventis Advisors, March 2026))' },
 ]
 
 const tableHeaders = ['Metric', 'Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5']
 const subHeaders = ['', '£400k raise', 'Ireland M6', '', '', '']
 
 const tableRows = [
-  { metric: 'Britain', values: ['60', '140', '280', '450', '620'] },
-  { metric: 'Ireland (M6)', values: ['10', '40', '80', '130', '170'] },
-  { metric: 'US (M18)', values: ['0', '30', '150', '400', '800'] },
-  { metric: 'Australia (M18)', values: ['0', '20', '100', '280', '550'] },
-  { metric: 'Canada (M18)', values: ['0', '15', '80', '160', '340'] },
-  { metric: 'New Zealand (Y3)', values: ['0', '0', '40', '70', '150'] },
-  { metric: 'Net Active Venues', values: ['70', '245', '730', '1,490', '2,630'], highlight: true },
-  { metric: 'Blended ARPU/mo', values: ['£82', '£105', '£120', '£132', '£140'] },
-  { metric: 'ARR (run-rate)', values: ['£69k', '£309k', '£1.05m', '£2.36m', '£4.42m'], highlight: true },
+  { metric: 'Britain', values: ['43', '143', '307', '604', '1,060'] },
+  { metric: 'Ireland (M6)', values: ['7', '41', '88', '174', '290'] },
+  { metric: 'US (M18)', values: ['0', '31', '165', '538', '1,370'] },
+  { metric: 'Australia (M18)', values: ['0', '20', '110', '376', '940'] },
+  { metric: 'Canada (M18)', values: ['0', '15', '87', '215', '580'] },
+  { metric: 'New Zealand (Y3)', values: ['0', '0', '43', '93', '260'] },
+  { metric: 'Net Active Venues', values: ['50', '250', '800', '2,000', '4,500'], highlight: true },
+  { metric: 'Blended ARPU/mo', values: ['£128.75', '£140.75', '£146.25', '£146.25', '£146.25'] },
+  { metric: 'ARR (run-rate)', values: ['£77k', '£422k', '£1.40m', '£3.51m', '£7.90m'], highlight: true },
   {
     metric: 'Net Profit / Loss',
     values: [
-      { v: '\u2212£260k', color: '#D4A574' },
-      { v: '\u2212£45k', color: '#D4A574' },
-      { v: '£250k', color: 'rgba(76,175,80,0.8)' },
-      { v: '£800k', color: 'rgba(76,175,80,0.8)' },
-      { v: '£1.5m', color: 'rgba(76,175,80,0.8)' },
+      { v: '−£260k', color: '#D4A574' },
+      { v: '−£20k', color: '#D4A574' },
+      { v: '£400k', color: 'rgba(76,175,80,0.8)' },
+      { v: '£1.4m', color: 'rgba(76,175,80,0.8)' },
+      { v: '£3.4m', color: 'rgba(76,175,80,0.8)' },
     ],
   },
 ]
@@ -35,9 +35,12 @@ export default function Financials() {
   return (
     <section id="financials" className="section" data-animate>
       <span className="section-number">06</span>
-      <h2>£4.42m ARR by Year 5. Self-funding beyond the raise.</h2>
+      <h2>£7.9m ARR by Year 5. Self-funding beyond the raise.</h2>
       <p className="section-sub">
-        £100/mo core suite at launch (Quartermaster + Auditor + Secretary). First 79 users at £79/mo for life. Additional venues £50/mo. Receptionist (£20/mo), Orator (£20/mo), and Clerk (£10/mo) launch in Year 2 — full suite £150/mo. 1.5% monthly churn (16.6% annualised) — at the lower end of the mid-market SaaS benchmark of 1.5–3% monthly (Optifai, 2026), justified by Square POS integration switching costs that create structural retention. Venue figures represent net active customers after churn. International from Month 18 (Ireland from Month 6). Sales team active from Month 1.
+        Y5 ARR sits around £7.5m–£8.0m on the current venue case, with upside toward £8.5m depending on attach-rate realisation. Aoife&trade; Premium is the largest single ARPU swing factor.
+      </p>
+      <p className="section-sub" style={{ marginTop: -8 }}>
+        Base bundle £100/mo (Quartermaster + Auditor + Secretary). Aoife&trade; Premium +£30/mo unlocks cross-app reasoning from Year 1. Receptionist +£20/mo launches in Year 2. Clerk +£10/mo launches Year 2 to Year 3 once the senior technical hire is in. Power User +£5/mo extends Siloed Aoife&trade; calls within a single app. Additional venues +£50/mo with identical app subs enforced across venues. Five free Opus calls per venue per month included; Opus packs from £5/10 calls. 1.5% monthly churn (16.6% annualised), at the lower end of the mid-market SaaS benchmark of 1.5–3% monthly (Optifai, 2026), justified by Square POS integration switching costs that create structural retention. Venue figures represent net active customers after churn. International from Month 18, Ireland from Month 6. Sales team active from Month 1.
       </p>
 
       <div style={styles.headlineRow} data-animate>
@@ -86,12 +89,18 @@ export default function Financials() {
       </div>
 
       <p style={styles.note}>
-        Net active venue figures account for 1.5% monthly churn (16.6% annually) applied to opening base each year. Gross new logos signed are higher. Blended ARPU rises as the early adopter cohort (£79/mo) becomes a smaller fraction of the base, standard pricing (£100/mo) dominates, and add-on products (Receptionist, Orator, Clerk — launching Year 2 at a combined £50/mo) drive attach revenue. ARR figures based on end-of-year net active venues x blended ARPU x 12. Forward-looking estimates — not guaranteed.
+        Net active venue figures account for 1.5% monthly churn (16.6% annually) applied to opening base each year. Gross new logos signed are higher. Blended ARPU rises year on year as Aoife&trade; Premium attaches at 50% of paying venues from Year 1, Receptionist attaches at 60% from Year 2, and Clerk attaches at 55% from Year 2 to Year 3. 20% of operators run more than one venue at an average of one extra venue. Power User add-on attaches at 15%. Opus pack overage averages around £3 per venue per month. ARR figures based on end-of-year net active venues x blended ARPU x 12. Forward-looking estimates, not guaranteed.
       </p>
 
-      <div className="callout" style={{ marginTop: 24 }} data-animate>
+      <div className="callout callout-amber" style={{ marginTop: 24 }} data-animate>
+        <p style={{ fontSize: 14, lineHeight: 1.7, color: '#1B2A4A' }}>
+          <strong>Aoife&trade; Premium is the single largest revenue swing factor.</strong> The +£30/mo cross-app reasoning add-on attaches at an assumed 50% of paying venues. Each 10-point shift in attach rate moves Y5 ARR by roughly £160k. The proprietary system prompt and corpus of operator reasoning is the moat, models are interchangeable.
+        </p>
+      </div>
+
+      <div className="callout" style={{ marginTop: 16 }} data-animate>
         <p style={{ fontSize: 13, lineHeight: 1.7, color: '#1B2A4A' }}>
-          <strong>COGS breakdown at 100 venues (£100/mo core suite):</strong> Stripe ~2.2% (£220/month), Supabase/Vercel infrastructure ~1.5% (£150/month), Anthropic API with prompt caching ~0.5% (&lt;£50/month). Total COGS ~4.2% of revenue. Gross margin ~95.8% at 100 venues. Source: Stripe UK pricing April 2026 · Benchmarkit SaaS Gross Margin 2025
+          <strong>COGS breakdown at 100 venues (£100/mo base bundle):</strong> Stripe ~2.2% (£220/month), Supabase/Vercel infrastructure ~1.5% (£150/month), Anthropic API with prompt caching ~0.5% (&lt;£50/month). Total COGS ~4.2% of revenue. Gross margin ~95.8% at 100 venues, normalising to 85–90% at scale. Source: Stripe UK pricing April 2026 · Benchmarkit SaaS Gross Margin 2025
         </p>
       </div>
     </section>
