@@ -14,7 +14,7 @@ export default function Ask() {
     <section id="ask" className="section" data-animate>
       <span className="section-number">07</span>
       <h2>£400,000 for 10.26% post-money equity.</h2>
-      <p className="section-sub">£3.5m pre-money. In line with reported UK pre-seed valuation benchmarks. Anchored by a live product in production, a beta venue using it daily, a team that believed enough to take founder-level salaries, a TechStart NI application under assessment, and the only Square-native compliance and inventory platform in the UK and Ireland. £7.9m Year 5 ARR trajectory supports a 5x to 10x exit range of £40m to £79m. This is not a concept, it is a working product in a validated market, raising at a fair price.</p>
+      <p className="section-sub">£3.5m pre-money. In line with reported UK pre-seed valuation benchmarks. Anchored by a live product in production, a beta venue using it daily, a team that believed enough to take founder-level salaries, a TechStart NI application under assessment, and one of the first Square-native compliance and inventory platforms purpose-built for UK and Irish independents. £7.9m Year 5 ARR trajectory supports a 5x to 10x exit range of £40m to £79m. This is not a concept, it is a working product in a validated market, raising at a fair price.</p>
 
       <div style={{ marginTop: 40, marginBottom: 16 }}>
         {funds.map((f) => (

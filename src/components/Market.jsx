@@ -83,7 +83,7 @@ export default function Market() {
 
       <div className="callout-navy" style={styles.calloutNav} data-animate>
         <p style={{ fontSize: 15, lineHeight: 1.7 }}>
-          English-language scaling means the same product, same onboarding, same pitch deck works across all six markets. No localisation sprint. No translation cost. The founder built and operated in English hospitality, the product intuition transfers directly.
+          English-language scaling means the same product, same onboarding, same pitch deck works across all six markets. No translation sprint. Product localisation remains limited to compliance wording and integration priorities. The founder built and operated in English hospitality, the product intuition transfers directly.
         </p>
       </div>
 

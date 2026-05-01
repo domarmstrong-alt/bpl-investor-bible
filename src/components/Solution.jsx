@@ -42,7 +42,7 @@ const products = [
     status: 'Roadmap · Y3 free for all operators',
     statusColor: 'pill-grey',
     tagline: 'All publicity is good publicity.',
-    desc: 'CRM, marketing, and competitive intelligence. Auto-built customer database from Receptionist and POS data. Email and SMS campaigns. On-demand reputation sweep across Google, Reddit, X, and TripAdvisor with AI sentiment digest. Watch 5 to 10 competitors with comparative analysis.',
+    desc: 'CRM, marketing, and competitive intelligence. Auto-built customer database from Receptionist and POS data. Email and SMS campaigns. On-demand reputation sweep across Google, Reddit, X, and TripAdvisor with AI sentiment digest. Watch 5 to 10 competitors with comparative analysis. Orator is modelled as retention and expansion infrastructure, not a separate paid add-on in this case.',
   },
 ]
 
@@ -61,7 +61,7 @@ export default function Solution() {
           <div style={styles.pricingBaseLabel}>Base bundle</div>
           <div style={styles.pricingBaseRow}>
             <span style={styles.pricingBaseAmount}>£100/mo</span>
-            <span style={styles.pricingBaseProducts}>Quartermaster + Auditor + Secretary</span>
+            <span style={styles.pricingBaseProducts}>Quartermaster + Auditor live, Secretary included as it launches</span>
           </div>
         </div>
         <div style={styles.pricingAddons}>
