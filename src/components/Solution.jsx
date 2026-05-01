@@ -37,6 +37,13 @@ const products = [
     tagline: 'Counting is hard enough, let us store it all in one place for you.',
     desc: 'Operational finance layer, invoice scanning, asset register, historical P&L intelligence, Xero integration, true cost analysis.',
   },
+  {
+    name: 'Orator',
+    status: 'Roadmap · Y3 free for all operators',
+    statusColor: 'pill-grey',
+    tagline: 'All publicity is good publicity.',
+    desc: 'CRM, marketing, and competitive intelligence. Auto-built customer database from Receptionist and POS data. Email and SMS campaigns. On-demand reputation sweep across Google, Reddit, X, and TripAdvisor with AI sentiment digest. Watch 5 to 10 competitors with comparative analysis.',
+  },
 ]
 
 export default function Solution() {
