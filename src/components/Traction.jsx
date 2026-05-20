@@ -7,6 +7,7 @@ const tractionItems = [
   '✓ AI features built on Anthropic Claude API, real inference calls against live venue data, not pre-written scripts or cached answers',
   '✓ TechStart NI Concept Plus, application submitted April 2026',
   '✓ InterTradeIreland Seedcorn 2026, entered (B2B category, Northern Ireland region)',
+  '✓ SEIS Advance Assurance in progress',
 ]
 
 export default function Traction() {
@@ -26,7 +27,7 @@ export default function Traction() {
           Why now? Because venues are dying. Real ones. The ones with character. The ones that made a street feel like somewhere instead of anywhere. I've sat in front of a P&L at midnight trying to work out how to squeeze a few hundred quid out of a business that was already running on fumes. Sometimes the answer isn't make more money. Sometimes it's stop losing it. And most operators don't even know where it's leaking from, because nobody ever gave them the tools to see.
         </p>
         <p style={{ marginBottom: 16 }}>
-          Blue Paper Labs isn’t here to save anyone's business. Nothing can, on its own. But it can give you a fighting chance. It can put the numbers in front of you so you can make the call with your eyes open. It can be the thing that's there at 11pm on a Sunday when you're working out whether to pay the VAT or the suppliers, and whether there's anything left for the milkman on Tuesday.
+          Bluepaper Limited isn’t here to save anyone's business. Nothing can, on its own. But it can give you a fighting chance. It can put the numbers in front of you so you can make the call with your eyes open. It can be the thing that's there at 11pm on a Sunday when you're working out whether to pay the VAT or the suppliers, and whether there's anything left for the milkman on Tuesday.
         </p>
         <p style={{ marginBottom: 16 }}>
           That's it. That's the whole thing. We're not building something that's better, we're building something that's better suited.
@@ -44,7 +45,7 @@ export default function Traction() {
       <h2 style={{ marginTop: 48, marginBottom: 16 }}>The Belfast Advantage</h2>
       <div className="callout" data-animate>
         <p style={{ fontSize: 15, lineHeight: 1.7, color: '#1B2A4A' }}>
-          Blue Paper Labs is headquartered in Belfast, Northern Ireland, the UK's top location for US R&D investment (Financial Times fDi Markets, 2025). Northern Ireland's tech ecosystem includes Cloudsmith ($23m Series B, March 2025) and 1,500+ Invest NI client companies generating £29 billion in annual sales. Tech salaries in Belfast are materially below London equivalents, extending runway on every hire. The Windsor Framework gives NI-headquartered businesses unique dual market access to both the UK internal market and the EU single market, a structural advantage no other UK region can claim. As a Belfast company, the Republic of Ireland is not an international expansion. It is our second home market.
+          Bluepaper Limited is headquartered in Belfast, Northern Ireland, the UK's top location for US R&D investment (Financial Times fDi Markets, 2025). Northern Ireland's tech ecosystem includes Cloudsmith ($23m Series B, March 2025) and 1,500+ Invest NI client companies generating £29 billion in annual sales. Tech salaries in Belfast are materially below London equivalents, extending runway on every hire. The Windsor Framework gives NI-headquartered businesses unique dual market access to both the UK internal market and the EU single market, a structural advantage no other UK region can claim. As a Belfast company, the Republic of Ireland is not an international expansion. It is our second home market.
         </p>
         <div className="source-line">
           Source: Invest NI Annual Report 2024–25 · FT fDi Markets 2025 · UKTN: Cloudsmith · InterTradeIreland Cross-Border Trade Hub · Invest NI dual market access

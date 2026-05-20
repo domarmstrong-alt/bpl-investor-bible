@@ -40,7 +40,7 @@ export default function Nav() {
     <nav style={styles.nav}>
       <div style={styles.inner}>
         <a href="#hero" onClick={(e) => handleClick(e, '#hero')} style={styles.brand}>
-          Blue Paper Labs
+          Bluepaper Limited
         </a>
 
         {/* Desktop links */}

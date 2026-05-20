@@ -1,5 +1,5 @@
 const rows = [
-  { name: 'Blue Paper Labs', price: '£100/mo base · add-ons from +£10/mo · Aoife™ Premium +£30/mo', target: 'Independent 1–5 venues, Square/Lightspeed/Toast', ai: '✓ Claude API', pos: 'Square · Lightspeed · Toast (Y1–2)', haccp: '✓', uk: '✓', highlight: true },
+  { name: 'Bluepaper Limited', price: '£100/mo base · add-ons from +£10/mo · Aoife™ Premium +£30/mo', target: 'Independent 1–5 venues, Square/Lightspeed/Toast', ai: '✓ Claude API', pos: 'Square · Lightspeed · Toast (Y1–2)', haccp: '✓', uk: '✓', highlight: true },
   { name: 'MarketMan', price: '£150+ standalone · £148/mo via Square', target: 'Multi-site chains', ai: '✗', pos: 'Daily (standalone) · Square · Lightspeed · Toast', haccp: '✗', uk: '✗' },
   { name: 'Nory', price: '£299/venue', target: 'Restaurant groups', ai: 'Partial (predictive)', pos: 'Real-time', haccp: '✗', uk: '✗' },
   { name: 'Apicbase', price: '£213+', target: 'Enterprise', ai: '✗', pos: 'Varies', haccp: '✓', uk: '✗' },
@@ -64,13 +64,26 @@ export default function Competitive() {
         </div>
       </div>
 
+      {/* Nory callout */}
+      <div className="callout callout-navy" style={{ marginBottom: 24 }} data-animate>
+        <h3 style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: 18, marginBottom: 8, color: '#fff' }}>
+          Nory: 2.9★ on the App Store, invoice scanning down
+        </h3>
+        <p style={{ fontSize: 14, lineHeight: 1.7, color: 'rgba(255,255,255,0.85)' }}>
+          Invoice scanning is currently broken, with an active in-app banner confirming the outage as of May 2026. App Store rating sits at 2.9★. Operator-reported onboarding timelines are running six weeks or more, with venues still not live at the end of that window. The enterprise-priced AI forecasting story is undercut by core features that do not work and an onboarding experience independent operators cannot absorb.
+        </p>
+        <div className="source-line" style={{ color: 'rgba(255,255,255,0.5)' }}>
+          Source: Nory iOS App Store · in-app outage banner, May 2026 · operator interviews
+        </div>
+      </div>
+
       {/* Square competitive accelerant */}
       <div className="callout" data-animate>
         <h3 style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: 18, marginBottom: 8, color: '#1B2A4A' }}>
           Square just validated this market, and handed us the advantage
         </h3>
         <p style={{ fontSize: 14, lineHeight: 1.7, color: '#1B2A4A' }}>
-          On 2 April 2026, Square launched 'Square Restaurant Inventory by MarketMan' globally including the UK and Ireland, confirming the market opportunity. The total cost for an operator: £69/month (Square for Restaurants Plus) + £79/month (MarketMan add-on) = £148/month per location. For £48/month less than the Square/MarketMan bundle, operators get the Blue Paper Labs base bundle at £100/month: inventory, compliance, and workforce tooling as Secretary comes online, with compliance features MarketMan does not offer, across Square, Lightspeed, and Toast. With Aoife&trade; Premium, the stack is £130/month, still below MarketMan inventory alone via Square, while adding compliance and reasoning AI. Receptionist arrives in Year 2 at +£20/month. Clerk lands in Year 2 to Year 3 at +£10/month. MarketMan has integrated with Lightspeed and Toast for years, but Square's UK bundle now prices inventory alone at £148/month. With a 2.4 star Trustpilot rating, UK and Irish operators deserve a purpose-built answer. Toast's December 2025 Dublin R&D expansion confirms the Irish market is validated and moving. Blue Paper Labs' compliance-first positioning differentiates it from Toast's enterprise-oriented stack.
+          On 2 April 2026, Square launched 'Square Restaurant Inventory by MarketMan' globally including the UK and Ireland, confirming the market opportunity. The total cost for an operator: £69/month (Square for Restaurants Plus) + £79/month (MarketMan add-on) = £148/month per location. For £48/month less than the Square/MarketMan bundle, operators get the Bluepaper Limited base bundle at £100/month: inventory, compliance, and workforce tooling as Secretary comes online, with compliance features MarketMan does not offer, across Square, Lightspeed, and Toast. With Aoife&trade; Premium, the stack is £130/month, still below MarketMan inventory alone via Square, while adding compliance and reasoning AI. Receptionist arrives in Year 2 at +£20/month. Clerk lands in Year 2 to Year 3 at +£10/month. MarketMan has integrated with Lightspeed and Toast for years, but Square's UK bundle now prices inventory alone at £148/month. With a 2.4 star Trustpilot rating, UK and Irish operators deserve a purpose-built answer. Toast's December 2025 Dublin R&D expansion confirms the Irish market is validated and moving. Bluepaper Limited' compliance-first positioning differentiates it from Toast's enterprise-oriented stack.
         </p>
         <div className="source-line">
           Source: Square UK Press Release 2 April 2026 · Square GB Pricing Page April 2026 · Irish Times: Toast Dublin office December 2025 · MarketMan Trustpilot April 2026

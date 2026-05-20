@@ -99,7 +99,7 @@ export default function Ask() {
         </p>
         <p style={{ fontSize: 14, lineHeight: 1.7, color: 'rgba(255,255,255,0.75)', marginBottom: 0 }}>
           The team accepted founder-level salaries so the runway goes further. The raise is lean by design. The returns are better for it.
-          <br />Square validated this market on 2 April 2026. Toast expanded its Dublin R&D presence in December 2025. The only question is who builds the purpose-built UK and Irish answer. That is Blue Paper Labs.
+          <br />Square validated this market on 2 April 2026. Toast expanded its Dublin R&D presence in December 2025. The only question is who builds the purpose-built UK and Irish answer. That is Bluepaper Limited.
         </p>
       </div>
 

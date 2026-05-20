@@ -4,8 +4,8 @@ export default function Footer() {
       <div style={styles.inner}>
         <div style={styles.cols}>
           <div>
-            <div style={styles.brand}>Blue Paper Labs</div>
-            <div style={styles.detail}>Bluepaper Limited &middot; NI739076 &middot; Belfast, Northern Ireland</div>
+            <div style={styles.brand}>Bluepaper Limited</div>
+            <div style={styles.detail}>NI739076 &middot; Belfast, Northern Ireland</div>
             <div style={styles.detail}>hello@bluepaperlabs.com</div>
           </div>
           <div style={{ textAlign: 'right' }}>

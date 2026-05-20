@@ -3,8 +3,6 @@ const products = [
     name: 'Quartermaster',
     status: 'Live',
     statusColor: 'pill-green',
-    url: 'quartermaster.paperdocket.app',
-    href: 'https://quartermaster.paperdocket.app',
     tagline: 'Track every unit. Know what’s missing.',
     desc: 'Inventory management. Square POS integration. AI-powered variance reporting. Unit-level tracking that maps every sale to every ingredient deduction, in real units, not estimates.',
   },
@@ -12,8 +10,6 @@ const products = [
     name: 'Auditor',
     status: 'In production',
     statusColor: 'pill-amber',
-    url: 'auditor.paperdocket.app',
-    href: 'https://auditor.paperdocket.app',
     desc: 'Digital compliance records. HACCP plan builder. Temperature logs with corrective action prompts. EHO-ready PDF exports. Allergen matrix auto-generated from Quartermaster recipe data.',
   },
   {
@@ -54,7 +50,7 @@ export default function Solution() {
         Paper Docket &middot; The Suite
       </div>
       <h2>One base bundle. Add-ons by attach likelihood. One login.</h2>
-      <p className="section-sub">Paper Docket is the operations suite from Blue Paper Labs. One login. Shared data across every screen.</p>
+      <p className="section-sub">Paper Docket is a six-app operations suite from Bluepaper Limited, sharing one data model and one login. Multi-tenant from the ground up. Hub owns auth, venue picker, settings, billing, and access control. One login per venue, with role and app-level access controlled by the owner.</p>
 
       <div style={styles.pricingStack} data-animate>
         <div style={styles.pricingBase}>
@@ -119,7 +115,7 @@ export default function Solution() {
 
       <div className="callout callout-amber" data-animate>
         <p style={{ fontSize: 15, lineHeight: 1.7, color: '#1B2A4A', fontWeight: 500 }}>
-          For £48/month less than the Square/MarketMan bundle, operators get the Blue Paper Labs base bundle at £100/month: inventory, compliance, and workforce tooling as Secretary comes online. With Aoife&trade; Premium, the stack is £130/month, still below MarketMan inventory alone via Square, while adding compliance and reasoning AI. Nory charges £299/venue for AI-led forecasting positioned for larger restaurant groups. Receptionist arrives in Year 2 at +£20/month, Clerk lands in Year 2 to Year 3 at +£10/month once the senior technical hire is in.
+          For £48/month less than the Square/MarketMan bundle, operators get the Bluepaper Limited base bundle at £100/month: inventory, compliance, and workforce tooling as Secretary comes online. With Aoife&trade; Premium, the stack is £130/month, still below MarketMan inventory alone via Square, while adding compliance and reasoning AI. Nory charges £299/venue for AI-led forecasting positioned for larger restaurant groups. Receptionist arrives in Year 2 at +£20/month, Clerk lands in Year 2 to Year 3 at +£10/month once the senior technical hire is in.
         </p>
       </div>
 

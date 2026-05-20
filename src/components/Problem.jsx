@@ -30,7 +30,7 @@ const cards = [
   {
     stat: '\u20AC300m+/year',
     label: 'Lost to food waste in Irish hospitality alone',
-    body: 'Irish hospitality generates 175,000 tonnes of food waste annually at a cost of over \u20AC300 million to the sector, the same inventory-gap problem Blue Paper Labs solves in Britain, driven by the same manual-first operational culture.',
+    body: 'Irish hospitality generates 175,000 tonnes of food waste annually at a cost of over \u20AC300 million to the sector, the same inventory-gap problem Bluepaper Limited solves in Britain, driven by the same manual-first operational culture.',
     source: 'Source: EPA Ireland, Reducing Commercial Food Waste in Ireland 2019 \u00B7 EPA Food Waste Statistics 2023 \u00B7 Food Waste Charter Ireland',
     cite: 5,
   },
