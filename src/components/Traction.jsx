@@ -1,12 +1,11 @@
 const tractionItems = [
-  '✓ Production-ready product built solo in under 4 weeks, including Square OAuth integration, AI-powered variance reporting, and full row-level security for multi-tenant data isolation',
+  '✓ Production-ready product built solo, including Square OAuth integration, AI-powered variance reporting, and full row-level security for multi-tenant data isolation',
   '✓ Square OAuth live in production, UK and Ireland distribution channel ready',
   '✓ Beta venue active and using daily',
   '✓ Lightspeed integration in build, Year 1 target',
-  '✓ Toast partnership application submitted, Year 1–2 target',
+  '✓ Toast integration, Year 2 target',
   '✓ AI features built on Anthropic Claude API, real inference calls against live venue data, not pre-written scripts or cached answers',
-  '✓ TechStart NI Concept Plus, application submitted April 2026',
-  '✓ InterTradeIreland Seedcorn 2026, entered (B2B category, Northern Ireland region)',
+  '✓ InterTradeIreland Seedcorn 2026, advancing to Phase 2',
   '✓ SEIS Advance Assurance in progress',
 ]
 
