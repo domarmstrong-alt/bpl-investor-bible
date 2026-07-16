@@ -31,14 +31,24 @@ export default function Traction() {
         <p style={{ marginBottom: 16 }}>
           That's it. That's the whole thing. We're not building something that's better, we're building something that's better suited.
         </p>
-        <p>
+        <p style={{ marginBottom: 16 }}>
           Built in evenings. Live in production. First beta venue using it daily.
+        </p>
+        <p style={{ marginBottom: 0, fontStyle: 'normal', fontSize: 15, fontWeight: 600 }}>
+          — Dominic Armstrong, CMgr FCMI &middot; Founder &amp; CEO
         </p>
       </blockquote>
       <div style={styles.pillRow} data-animate>
         {tractionItems.map((item) => (
           <span key={item} style={styles.pill}>{item}</span>
         ))}
+      </div>
+
+      <h2 style={{ marginTop: 48, marginBottom: 16 }}>The Founder</h2>
+      <div className="callout" data-animate>
+        <p style={{ fontSize: 15, lineHeight: 1.7, color: '#1B2A4A' }}>
+          <strong>Dominic Armstrong, CMgr FCMI — Founder &amp; CEO.</strong> Over a decade as Operations Director of Armstrong Hospitality Group, running six independent venues in Northern Ireland — the exact operator Paper Docket is built for. Chartered Fellow of the Chartered Management Institute. Built Paper Docket solo, in the evenings, while working in fraud operations at BT Group; an Associate Member of the Association of Certified Fraud Examiners — the risk-and-controls instinct behind Auditor's compliance-first design. Member of the Claude Partner Network.
+        </p>
       </div>
 
       <h2 style={{ marginTop: 48, marginBottom: 16 }}>The Belfast Advantage</h2>

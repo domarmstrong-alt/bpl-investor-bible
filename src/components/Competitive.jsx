@@ -67,13 +67,13 @@ export default function Competitive() {
       {/* Nory callout */}
       <div className="callout callout-navy" style={{ marginBottom: 24 }} data-animate>
         <h3 style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: 18, marginBottom: 8, color: '#fff' }}>
-          Nory: 2.9★ on the App Store, invoice scanning down
+          Nory: a $37m Series B that validates the thesis — for a different customer
         </h3>
         <p style={{ fontSize: 14, lineHeight: 1.7, color: 'rgba(255,255,255,0.85)' }}>
-          Invoice scanning is currently broken, with an active in-app banner confirming the outage as of May 2026. App Store rating sits at 2.9★. Operator-reported onboarding timelines are running six weeks or more, with venues still not live at the end of that window. The enterprise-priced AI forecasting story is undercut by core features that do not work and an onboarding experience independent operators cannot absorb.
+          Nory closed a $37m Series B in September 2025 (led by Kinnevik, with Accel following) and opened its US expansion in March 2026 — the strongest evidence yet that investors back AI-led operations software for hospitality. It is also structurally built for a different customer: £299/venue pricing, operator-reported onboarding of six weeks or more, and an enterprise sales motion serving groups like Jamie Oliver Group and Azzurri. A single-site independent cannot absorb that price or that onboarding. The current friction — invoice scanning down with an in-app outage banner as of May 2026, a 2.9★ App Store rating — is what a product tuned for restaurant groups looks like from below.
         </p>
         <div className="source-line" style={{ color: 'rgba(255,255,255,0.5)' }}>
-          Source: Nory iOS App Store · in-app outage banner, May 2026 · operator interviews
+          Source: Tech.eu, September 2025 · Restaurant Technology News, March 2026 · Nory iOS App Store · in-app outage banner, May 2026 · operator interviews
         </div>
       </div>
 
@@ -84,6 +84,9 @@ export default function Competitive() {
         </h3>
         <p style={{ fontSize: 14, lineHeight: 1.7, color: '#1B2A4A' }}>
           On 2 April 2026, Square launched 'Square Restaurant Inventory by MarketMan' globally including the UK and Ireland, confirming the market opportunity. The total cost for an operator: £69/month (Square for Restaurants Plus) + £79/month (MarketMan add-on) = £148/month per location. For £48/month less than the Square/MarketMan bundle, operators get the Bluepaper Limited base bundle at £100/month: inventory, compliance, and workforce tooling, all live today, with compliance features MarketMan does not offer, across Square, Lightspeed, and Toast. Aoife&trade; cross-app reasoning is included as standard, at no extra charge — reasoning AI MarketMan does not offer at any price. Receptionist arrives in Year 2 at +£20/month. Clerk lands in Year 2 to Year 3 at +£10/month. MarketMan has integrated with Lightspeed and Toast for years, but Square's UK bundle now prices inventory alone at £148/month. With a 2.4 star Trustpilot rating, UK and Irish operators deserve a purpose-built answer. Toast's December 2025 Dublin R&D expansion confirms the Irish market is validated and moving. Bluepaper Limited's compliance-first positioning differentiates it from Toast's enterprise-oriented stack.
+        </p>
+        <p style={{ fontSize: 14, lineHeight: 1.7, color: '#1B2A4A', marginTop: 12 }}>
+          <strong>The honest question, answered:</strong> Square is now both our first distribution channel and MarketMan's landlord. The plan prices that risk in three ways. Lightspeed integration is in build for Year 1 and Toast follows in Year 2, so no single POS ever controls distribution. The Square bundle is inventory only — the compliance and workforce layers, and the reasoning engine across all of them, sit entirely outside MarketMan's product. And MarketMan is built for multi-site chains, so the single-site independent remains unserved by the very bundle Square now sells.
         </p>
         <div className="source-line">
           Source: Square UK Press Release 2 April 2026 · Square GB Pricing Page April 2026 · Irish Times: Toast Dublin office December 2025 · MarketMan Trustpilot April 2026

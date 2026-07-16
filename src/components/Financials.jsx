@@ -3,7 +3,7 @@ const headlines = [
   { number: '£2.8m', label: 'Year 5 net profit' },
   { number: '£8.4m', label: '5-year cumulative subscription revenue (sum of in-year revenue below)' },
   { number: '85–95%', label: 'Gross margin (subscription revenue only, no professional services. Stripe ~2.2%, infrastructure ~1.5%, AI ~0.5% at current usage. Currently ~95%, expected to normalise toward 85–90% at scale as AI usage grows with Aoife™ standard on every venue.)' },
-  { number: '£35–71m', label: 'Implied exit at 5×–10× ARR (Global private SaaS long-term median 4.5×, top quartile above 8.1× (Aventis Advisors, March 2026))' },
+  { number: '£21–71m', label: 'Implied exit at 3×–10× ARR. 2026 private SaaS medians run ~3–4.5×, top quartile above 8× (Aventis Advisors, March 2026); the upper half of the range assumes top-quartile growth and retention.' },
 ]
 
 const tableHeaders = ['Metric', 'Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5']
@@ -41,7 +41,7 @@ export default function Financials() {
         Y5 ARR sits at £7.1m on the current venue case. Each 10-point swing across add-on attach rates moves Y5 ARR by roughly £160k, giving a £6.9m–£7.3m band, with upside toward £7.6m if every attach lever outperforms.
       </p>
       <p className="section-sub" style={{ marginTop: -8 }}>
-        Base bundle £100/mo: Quartermaster, Auditor, and Secretary, all live, with Aoife&trade; cross-app reasoning included as standard. Receptionist +£20/mo launches in Year 2. Clerk +£10/mo launches Year 2 to Year 3 once the senior technical hire is in. Power User +£5/mo extends the Aoife&trade; call allowance. Additional venues +£50/mo with identical app subs enforced across venues. Five free Opus calls per venue per month included; Opus packs from £5/10 calls. 1.5% monthly churn (16.6% annualised), at the lower end of the mid-market SaaS benchmark of 1.5–3% monthly (Optifai, 2026), justified by Square POS integration switching costs that create structural retention. Venue figures represent net active customers after churn. International from Month 18, Ireland from Month 6. Sales team active from Month 1.
+        Base bundle £100/mo: Quartermaster, Auditor, and Secretary, all live, with Aoife&trade; cross-app reasoning included as standard. Receptionist +£20/mo launches in Year 2. Clerk +£10/mo launches Year 2 to Year 3 once the senior technical hire is in. Power User +£5/mo extends the Aoife&trade; call allowance. Additional venues +£50/mo with identical app subs enforced across venues. Five free Opus calls per venue per month included; Opus packs from £5/10 calls. 1.5% monthly churn (16.6% annualised) includes involuntary churn from venue closures — a structural reality in a sector currently losing venues daily, and the same pressure that makes this product necessary. That sits at the lower end of the mid-market SaaS benchmark of 1.5–3% monthly (Optifai, 2026); Square POS integration switching costs support the low end on voluntary churn. Venue figures represent net active customers after churn. International from Month 18, Ireland from Month 6. Sales team active from Month 1.
       </p>
 
       <div style={styles.headlineRow} data-animate>
