@@ -1,7 +1,7 @@
 const headlines = [
-  { number: '£7.1m', label: 'Year 5 ARR (central case · £6.7m–£7.2m band, upside to £7.6m)' },
+  { number: '£7.1m', label: 'Year 5 ARR (central case · £6.9m–£7.3m band, upside to £7.6m)' },
   { number: '£2.8m', label: 'Year 5 net profit' },
-  { number: '£8.4m', label: '5-year cumulative subscription revenue, based on average in-year active venues rather than end-of-year ARR' },
+  { number: '£8.4m', label: '5-year cumulative subscription revenue (sum of in-year revenue below)' },
   { number: '85–95%', label: 'Gross margin (subscription revenue only, no professional services. Stripe ~2.2%, infrastructure ~1.5%, AI ~0.5% at current usage. Currently ~95%, expected to normalise toward 85–90% at scale as AI usage grows with Aoife™ standard on every venue.)' },
   { number: '£35–71m', label: 'Implied exit at 5×–10× ARR (Global private SaaS long-term median 4.5×, top quartile above 8.1× (Aventis Advisors, March 2026))' },
 ]
@@ -18,14 +18,16 @@ const tableRows = [
   { metric: 'Net Active Venues', values: ['50', '250', '800', '2,000', '4,500'], highlight: true },
   { metric: 'Blended ARPU/mo', values: ['£113.75', '£125.75', '£131.25', '£131.25', '£131.25'] },
   { metric: 'ARR (run-rate)', values: ['£68k', '£377k', '£1.26m', '£3.15m', '£7.09m'], highlight: true },
+  { metric: 'Revenue (in-year)', values: ['£34k', '£226k', '£827k', '£2.21m', '£5.12m'] },
+  { metric: 'Total costs (incl. COGS)', values: ['£300k', '£275k', '£520k', '£1.06m', '£2.30m'] },
   {
     metric: 'Net Profit / Loss',
     values: [
-      { v: '−£270k', color: '#D4A574' },
-      { v: '−£50k', color: '#D4A574' },
-      { v: '£300k', color: 'rgba(76,175,80,0.8)' },
+      { v: '−£266k', color: '#D4A574' },
+      { v: '−£49k', color: '#D4A574' },
+      { v: '£307k', color: 'rgba(76,175,80,0.8)' },
       { v: '£1.15m', color: 'rgba(76,175,80,0.8)' },
-      { v: '£2.8m', color: 'rgba(76,175,80,0.8)' },
+      { v: '£2.82m', color: 'rgba(76,175,80,0.8)' },
     ],
   },
 ]
@@ -36,7 +38,7 @@ export default function Financials() {
       <span className="section-number">06</span>
       <h2>£7.1m ARR by Year 5. Profitable from Year 3.</h2>
       <p className="section-sub">
-        Y5 ARR sits around £6.7m–£7.2m on the current venue case, with upside toward £7.6m depending on attach-rate realisation.
+        Y5 ARR sits at £7.1m on the current venue case. Each 10-point swing across add-on attach rates moves Y5 ARR by roughly £160k, giving a £6.9m–£7.3m band, with upside toward £7.6m if every attach lever outperforms.
       </p>
       <p className="section-sub" style={{ marginTop: -8 }}>
         Base bundle £100/mo: Quartermaster, Auditor, and Secretary, all live, with Aoife&trade; cross-app reasoning included as standard. Receptionist +£20/mo launches in Year 2. Clerk +£10/mo launches Year 2 to Year 3 once the senior technical hire is in. Power User +£5/mo extends the Aoife&trade; call allowance. Additional venues +£50/mo with identical app subs enforced across venues. Five free Opus calls per venue per month included; Opus packs from £5/10 calls. 1.5% monthly churn (16.6% annualised), at the lower end of the mid-market SaaS benchmark of 1.5–3% monthly (Optifai, 2026), justified by Square POS integration switching costs that create structural retention. Venue figures represent net active customers after churn. International from Month 18, Ireland from Month 6. Sales team active from Month 1.
@@ -85,7 +87,7 @@ export default function Financials() {
       </div>
 
       <p style={styles.note}>
-        Net active venue figures account for 1.5% monthly churn (16.6% annually) applied to opening base each year. Gross new logos signed are higher. Blended ARPU rises through Year 3 as Receptionist attaches at 60% from Year 2 and Clerk attaches at 55% from Year 2 to Year 3. 20% of operators run more than one venue at an average of one extra venue. Power User add-on attaches at 15%. Opus pack overage averages around £3 per venue per month. ARR figures based on end-of-year net active venues × blended ARPU × 12. Forward-looking estimates, not guaranteed.
+        Net active venue figures account for 1.5% monthly churn (16.6% annually) applied to opening base each year. Gross new logos signed are higher. Blended ARPU rises through Year 3 as Receptionist attaches at 60% from Year 2 and Clerk attaches at 55% from Year 3 (launch window Year 2 to Year 3, revenue modelled conservatively from Year 3). 20% of operators run more than one venue at an average of one extra venue. Power User add-on attaches at 15%. Opus pack overage averages around £3 per venue per month. ARR figures based on end-of-year net active venues × blended ARPU × 12. In-year revenue based on average active venues across the year (midpoint of opening and closing base). Total costs cover the core team, marketing, legal and security, and platform COGS, held lean through Year 2 and scaling with venue growth from Year 3. Net profit is in-year revenue minus total costs. Forward-looking estimates, not guaranteed.
       </p>
 
       <div className="callout" style={{ marginTop: 16 }} data-animate>
