@@ -3,7 +3,7 @@ export default function Hero() {
     <section id="hero" style={styles.hero} data-animate>
       <div style={styles.inner}>
         <div style={styles.eyebrow}>Paper Docket &middot; Operations Suite</div>
-        <span style={styles.badge}>Investment Case &middot; Confidential &middot; 2026</span>
+        <span style={styles.badge}>Company Brief &middot; Confidential &middot; 2026</span>
 
         <h1 style={styles.heading}>
           Built by the industry <em>for the industry</em>
@@ -15,7 +15,7 @@ export default function Hero() {
         </p>
 
         <div style={styles.pills}>
-          {['£100/mo base · Aoife™ included as standard · Add-ons stacked', '30-day free trial · No credit card required', '1,053,120 venues across six English-speaking markets', 'Live product in production'].map(
+          {['£100/mo base · Aoife™ included as standard · Add-ons stacked', '30-day free trial · No credit card required', '1,053,120 venues across six English-speaking markets', 'Three apps live in production'].map(
             (text) => (
               <span key={text} style={styles.pill}>{text}</span>
             )

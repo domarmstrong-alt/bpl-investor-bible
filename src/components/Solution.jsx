@@ -38,7 +38,7 @@ const products = [
     status: 'Roadmap · Y3 free for all operators',
     statusColor: 'pill-grey',
     tagline: 'All publicity is good publicity.',
-    desc: 'CRM, marketing, and competitive intelligence. Auto-built customer database from Receptionist and POS data. Email and SMS campaigns. On-demand reputation sweep across Google, Reddit, X, and TripAdvisor with AI sentiment digest. Watch 5 to 10 competitors with comparative analysis. Orator is modelled as retention and expansion infrastructure, not a separate paid add-on in this case.',
+    desc: 'CRM, marketing, and competitive intelligence. Auto-built customer database from Receptionist and POS data. Email and SMS campaigns. On-demand reputation sweep across Google, Reddit, X, and TripAdvisor with AI sentiment digest. Watch 5 to 10 competitors with comparative analysis. Orator is modelled as retention and expansion infrastructure, not a separate paid add-on in this model.',
   },
 ]
 
@@ -110,7 +110,7 @@ export default function Solution() {
 
       <div className="callout callout-amber" data-animate>
         <p style={{ fontSize: 15, lineHeight: 1.7, color: '#1B2A4A', fontWeight: 500 }}>
-          For £48/month less than the Square/MarketMan bundle, operators get the Bluepaper Limited base bundle at £100/month: inventory, compliance, and workforce tooling, all live today, with Aoife&trade; cross-app reasoning included as standard. That is well below MarketMan inventory alone via Square, while adding compliance and reasoning AI at no extra charge. Nory charges £299/venue for AI-led forecasting positioned for larger restaurant groups. Receptionist arrives in Year 2 at +£20/month, Clerk lands in Year 2 to Year 3 at +£10/month once the senior technical hire is in.
+          For £48/month less than the Square/MarketMan bundle, operators get the Bluepaper Limited base bundle at £100/month: inventory, compliance, and workforce tooling, all live today, with Aoife&trade; cross-app reasoning included as standard — compliance and reasoning AI MarketMan does not offer at any price. Nory charges £299/venue for AI-led forecasting positioned for larger restaurant groups. Receptionist arrives in Year 2 at +£20/month, Clerk lands in Year 2 to Year 3 at +£10/month once the senior technical hire is in.
         </p>
       </div>
 

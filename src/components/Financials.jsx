@@ -2,12 +2,11 @@ const headlines = [
   { number: '£7.1m', label: 'Year 5 ARR (central case · £6.7m–£7.2m band, upside to £7.6m)' },
   { number: '£2.8m', label: 'Year 5 net profit' },
   { number: '£8.4m', label: '5-year cumulative subscription revenue, based on average in-year active venues rather than end-of-year ARR' },
-  { number: '85–95%', label: 'Gross margin (subscription revenue only, no professional services. Stripe ~2.2%, infrastructure ~1.5%, AI ~0.5% at current scale. Currently ~95%, expected to normalise toward 85–90% at scale.)' },
+  { number: '85–95%', label: 'Gross margin (subscription revenue only, no professional services. Stripe ~2.2%, infrastructure ~1.5%, AI ~0.5% at current usage. Currently ~95%, expected to normalise toward 85–90% at scale as AI usage grows with Aoife™ standard on every venue.)' },
   { number: '£35–71m', label: 'Implied exit at 5×–10× ARR (Global private SaaS long-term median 4.5×, top quartile above 8.1× (Aventis Advisors, March 2026))' },
 ]
 
 const tableHeaders = ['Metric', 'Year 1', 'Year 2', 'Year 3', 'Year 4', 'Year 5']
-const subHeaders = ['', '', 'Ireland M6', '', '', '']
 
 const tableRows = [
   { metric: 'Britain', values: ['43', '143', '307', '604', '1,060'] },
@@ -35,7 +34,7 @@ export default function Financials() {
   return (
     <section id="financials" className="section" data-animate>
       <span className="section-number">06</span>
-      <h2>£7.1m ARR by Year 5.</h2>
+      <h2>£7.1m ARR by Year 5. Profitable from Year 3.</h2>
       <p className="section-sub">
         Y5 ARR sits around £6.7m–£7.2m on the current venue case, with upside toward £7.6m depending on attach-rate realisation.
       </p>
@@ -56,11 +55,8 @@ export default function Financials() {
         <table style={styles.table}>
           <thead>
             <tr>
-              {tableHeaders.map((h, i) => (
-                <th key={h} style={styles.th}>
-                  {h}
-                  {subHeaders[i] && <div style={styles.subHeader}>{subHeaders[i]}</div>}
-                </th>
+              {tableHeaders.map((h) => (
+                <th key={h} style={styles.th}>{h}</th>
               ))}
             </tr>
           </thead>
@@ -89,12 +85,12 @@ export default function Financials() {
       </div>
 
       <p style={styles.note}>
-        Net active venue figures account for 1.5% monthly churn (16.6% annually) applied to opening base each year. Gross new logos signed are higher. Blended ARPU rises year on year as Receptionist attaches at 60% from Year 2 and Clerk attaches at 55% from Year 2 to Year 3. 20% of operators run more than one venue at an average of one extra venue. Power User add-on attaches at 15%. Opus pack overage averages around £3 per venue per month. ARR figures based on end-of-year net active venues x blended ARPU x 12. Forward-looking estimates, not guaranteed.
+        Net active venue figures account for 1.5% monthly churn (16.6% annually) applied to opening base each year. Gross new logos signed are higher. Blended ARPU rises through Year 3 as Receptionist attaches at 60% from Year 2 and Clerk attaches at 55% from Year 2 to Year 3. 20% of operators run more than one venue at an average of one extra venue. Power User add-on attaches at 15%. Opus pack overage averages around £3 per venue per month. ARR figures based on end-of-year net active venues × blended ARPU × 12. Forward-looking estimates, not guaranteed.
       </p>
 
       <div className="callout" style={{ marginTop: 16 }} data-animate>
         <p style={{ fontSize: 13, lineHeight: 1.7, color: '#1B2A4A' }}>
-          <strong>COGS breakdown at 100 venues (£100/mo base bundle):</strong> Stripe ~2.2% (£220/month), Supabase/Vercel infrastructure ~1.5% (£150/month), Anthropic API with prompt caching ~0.5% (&lt;£50/month). Total COGS ~4.2% of revenue. Gross margin ~95.8% at 100 venues, normalising to 85–90% at scale. Source: Stripe UK pricing April 2026 · Benchmarkit SaaS Gross Margin 2025
+          <strong>COGS breakdown at 100 venues (£100/mo base bundle):</strong> Stripe ~2.2% (£220/month), Supabase/Vercel infrastructure ~1.5% (£150/month), Anthropic API with prompt caching ~0.5% (&lt;£50/month). Total COGS ~4.2% of revenue. Gross margin ~95.8% at 100 venues, normalising to 85–90% at scale. AI is the line expected to grow fastest with Aoife&trade; cross-app reasoning standard on every venue; the 85–90% normalisation allows for this. Source: Stripe UK pricing April 2026 · Benchmarkit SaaS Gross Margin 2025
         </p>
       </div>
     </section>
@@ -143,12 +139,6 @@ const styles = {
     textAlign: 'left',
     fontWeight: 600,
     fontSize: 13,
-  },
-  subHeader: {
-    fontSize: 10,
-    fontWeight: 400,
-    opacity: 0.7,
-    marginTop: 2,
   },
   td: {
     padding: '10px 16px',
