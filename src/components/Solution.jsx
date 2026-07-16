@@ -8,14 +8,14 @@ const products = [
   },
   {
     name: 'Auditor',
-    status: 'In production',
-    statusColor: 'pill-amber',
+    status: 'Live',
+    statusColor: 'pill-green',
     desc: 'Digital compliance records. HACCP plan builder. Temperature logs with corrective action prompts. EHO-ready PDF exports. Allergen matrix auto-generated from Quartermaster recipe data.',
   },
   {
     name: 'Secretary',
-    status: 'Coming Soon',
-    statusColor: 'pill-grey',
+    status: 'Live',
+    statusColor: 'pill-green',
     desc: 'Rota and shift management with shift-aware push notifications. Replaces work WhatsApp groups. Only notifies staff when they\'re on the clock.',
   },
   {
@@ -57,15 +57,10 @@ export default function Solution() {
           <div style={styles.pricingBaseLabel}>Base bundle</div>
           <div style={styles.pricingBaseRow}>
             <span style={styles.pricingBaseAmount}>£100/mo</span>
-            <span style={styles.pricingBaseProducts}>Quartermaster + Auditor live, Secretary included as it launches</span>
+            <span style={styles.pricingBaseProducts}>Quartermaster + Auditor + Secretary, all live · Aoife&trade; cross-app reasoning included as standard</span>
           </div>
         </div>
         <div style={styles.pricingAddons}>
-          <div style={styles.addonRow}>
-            <span style={styles.addonAmount}>+£30/mo</span>
-            <span style={styles.addonName}>Aoife&trade; Premium</span>
-            <span style={styles.addonNote}>cross-app reasoning, Y1+ · ~50% attach</span>
-          </div>
           <div style={styles.addonRow}>
             <span style={styles.addonAmount}>+£20/mo</span>
             <span style={styles.addonName}>Receptionist</span>
@@ -79,7 +74,7 @@ export default function Solution() {
           <div style={styles.addonRow}>
             <span style={styles.addonAmount}>+£5/mo</span>
             <span style={styles.addonName}>Power User</span>
-            <span style={styles.addonNote}>extra Siloed Aoife&trade; calls within one app · ~15% attach</span>
+            <span style={styles.addonNote}>extra Aoife&trade; calls · ~15% attach</span>
           </div>
           <div style={styles.addonRow}>
             <span style={styles.addonAmount}>+£50/mo</span>
@@ -115,7 +110,7 @@ export default function Solution() {
 
       <div className="callout callout-amber" data-animate>
         <p style={{ fontSize: 15, lineHeight: 1.7, color: '#1B2A4A', fontWeight: 500 }}>
-          For £48/month less than the Square/MarketMan bundle, operators get the Bluepaper Limited base bundle at £100/month: inventory, compliance, and workforce tooling as Secretary comes online. With Aoife&trade; Premium, the stack is £130/month, still below MarketMan inventory alone via Square, while adding compliance and reasoning AI. Nory charges £299/venue for AI-led forecasting positioned for larger restaurant groups. Receptionist arrives in Year 2 at +£20/month, Clerk lands in Year 2 to Year 3 at +£10/month once the senior technical hire is in.
+          For £48/month less than the Square/MarketMan bundle, operators get the Bluepaper Limited base bundle at £100/month: inventory, compliance, and workforce tooling, all live today, with Aoife&trade; cross-app reasoning included as standard. That is well below MarketMan inventory alone via Square, while adding compliance and reasoning AI at no extra charge. Nory charges £299/venue for AI-led forecasting positioned for larger restaurant groups. Receptionist arrives in Year 2 at +£20/month, Clerk lands in Year 2 to Year 3 at +£10/month once the senior technical hire is in.
         </p>
       </div>
 
@@ -124,20 +119,24 @@ export default function Solution() {
         <div style={styles.aoifeEyebrow}>The Reasoning Engine</div>
         <h3 style={styles.aoifeHeading}>Aoife&trade;</h3>
         <p style={styles.aoifeBody}>
-          The proprietary AI reasoning engine inside every Paper Docket app. Reads operator data
-          across inventory, compliance, staff, and bookings. Cites real-time market context,
-          commodity prices, budget announcements, minimum wage, weather, supplier trends. Pushes
-          back with citations, never recommendations. The decision stays with the operator.
+          Aoife&trade; is the proprietary reasoning engine built into the Paper Docket suite — one
+          Aoife across every app, not a separate assistant in each. A 20,000-token system prompt
+          and a corpus of operator reasoning, refined over thirteen years of running venues.
+          <strong style={{ color: '#A8D5E2', fontWeight: 600 }}> The model is interchangeable. The framework is the moat.</strong>
         </p>
         <p style={styles.aoifeBody}>
-          The 20,000-token system prompt and 600 to 700 corpus strings of operator reasoning are the IP.
-          <strong style={{ color: '#A8D5E2', fontWeight: 600 }}> The prompt, operating corpus, workflow integrations, and proprietary venue data compound into the moat.</strong>
+          She reasons over two sources and nothing else: operator data across the suite, and a
+          knowledge base we hyper-curate ourselves. That is a deliberate trade — fewer sources,
+          zero guesswork — because a business can't afford a hallucinated VAT rate. If the answer
+          isn't in her sources, she says so. She does not make things up.
         </p>
         <p style={styles.aoifeBody}>
-          <strong style={{ color: '#D4A574', fontWeight: 600 }}>Aoife&trade; Premium is the single largest revenue swing factor in the model.</strong> The +£30/mo cross-app reasoning add-on is assumed to attach at 50% of paying venues. Each 10-point shift in attach rate moves Y5 ARR by roughly £160k.
+          She pushes back with the trade-offs the operator might have missed. She does not
+          recommend. She does not decide. She makes sure the operator is not deciding blind.
+          Your data, your context, your call.
         </p>
         <p style={styles.aoifeFooter}>
-          Aoife&trade; Premium (+£30/mo) unlocks cross-app reasoning. Siloed Aoife&trade; ships free with every app. Trademark application pending.
+          Aoife&trade; ships as standard with every Paper Docket app, cross-app reasoning included. Trademark application pending.
         </p>
       </div>
     </section>

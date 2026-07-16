@@ -8,7 +8,6 @@ import Market from './components/Market'
 import Competitive from './components/Competitive'
 import Traction from './components/Traction'
 import Financials from './components/Financials'
-import Ask from './components/Ask'
 import Footer from './components/Footer'
 
 export default function App() {
@@ -42,7 +41,6 @@ export default function App() {
       <Competitive />
       <Traction />
       <Financials />
-      <Ask />
       <Footer />
     </>
   )

@@ -7,7 +7,6 @@ const links = [
   { label: 'Competition', href: '#competition' },
   { label: 'Traction', href: '#traction' },
   { label: 'Financials', href: '#financials' },
-  { label: 'The Ask', href: '#ask' },
 ]
 
 export default function Nav() {
